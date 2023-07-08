@@ -1,2 +1,2 @@
 # manage-system
-Quảng Lý Nhân Sư Công Ty
+Quản Lý Nhân Sư Công Ty
