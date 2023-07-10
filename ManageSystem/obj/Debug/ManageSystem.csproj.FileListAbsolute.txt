@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.exe.config
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.QuanLy.resources
