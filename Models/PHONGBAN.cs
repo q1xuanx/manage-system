@@ -16,10 +16,10 @@ namespace ManageSystem.Models
         }
 
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MAPHONGBAN { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string TENPHONGBAN { get; set; }
 
         public int? SOLUONGNHANVIEN { get; set; }

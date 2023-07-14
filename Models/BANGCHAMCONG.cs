@@ -17,7 +17,7 @@ namespace ManageSystem.Models
         }
 
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MABANGCHAMCONG { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

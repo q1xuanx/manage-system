@@ -11,19 +11,19 @@ namespace ManageSystem.Models
     {
         [Key]
         [Column(Order = 0)]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MANV { get; set; }
 
         [Key]
         [Column(Order = 1)]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MABANGLUONG { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string SONGAYCONG { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MABANGCHAMCONG { get; set; }
 
         public virtual BANGCHAMCONG BANGCHAMCONG { get; set; }

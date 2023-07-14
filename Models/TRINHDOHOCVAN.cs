@@ -16,13 +16,13 @@ namespace ManageSystem.Models
         }
 
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MATRINHDO { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string TENTRINHDO { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string CHUYENNGANH { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

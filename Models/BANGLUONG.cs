@@ -16,7 +16,7 @@ namespace ManageSystem.Models
         }
 
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MABANGLUONG { get; set; }
 
         public double? HESOPHUCAP { get; set; }

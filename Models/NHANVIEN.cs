@@ -18,29 +18,35 @@ namespace ManageSystem.Models
         }
 
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MANV { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string TENNV { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string DIACHI { get; set; }
 
-        public bool? GIOITINH { get; set; }
+        public int ? GIOITINH { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime? NGAYSINH { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
+        public string EMAIL { get; set; }
+
+        [StringLength(11)]
+        public string SDT { get; set; }
+
+        [StringLength(50)]
         public string DANTOC { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MAPHONGBAN { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MATRINHDO { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
