@@ -10,13 +10,13 @@ namespace ManageSystem.Models
     public partial class ACCOUNT
     {
         [Key]
-        [StringLength(1)]
+        [StringLength(50)]
         public string IDACCOUNT { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string USERNAME { get; set; }
 
-        [StringLength(1)]
+        [StringLength(50)]
         public string PASSWORD { get; set; }
 
         public int? ROLE { get; set; }
@@ -24,7 +24,7 @@ namespace ManageSystem.Models
         public int? TRANGTHAI { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(50)]
         public string MANV { get; set; }
 
         public virtual NHANVIEN NHANVIEN { get; set; }
