@@ -48,7 +48,6 @@ namespace ManageSystem
             if (txt_UserName != null && txt_Password != null)
             {
                 ACCOUNT account = db.ACCOUNTs.FirstOrDefault(p => p.MANV.CompareTo(txt_UserName.Text) == 0 && p.PASSWORD.CompareTo(txt_Password.Text)==0);
-                
                 if (account != null)
                 {
                     FormHome formHome = new FormHome();
