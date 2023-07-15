@@ -12,6 +12,8 @@ using System.Windows.Forms;
 
 namespace ManageSystem.Forms
 {
+
+
     public partial class FormCreateEmployee : Form
     {
         DBContext db = new DBContext();
@@ -55,6 +57,7 @@ namespace ManageSystem.Forms
         }
         private void btn_Tao_Click(object sender, EventArgs e)
         {
+            
              try {
                 NHANVIEN checkNV = db.NHANVIENs.FirstOrDefault(nv => nv.EMAIL.Equals(txt_Email.Text) && nv.SDT.Equals(txt_SDT.Text));
                 if (checkNV == null)

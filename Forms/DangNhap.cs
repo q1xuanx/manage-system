@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,12 +20,29 @@ namespace ManageSystem
         public DangNhap()
         {
             InitializeComponent();
-          
+
+        }
+
+
+        public string HashPassword(string password)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder builder = new StringBuilder();
+
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+
+                return builder.ToString();
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void bt_2_Click(object sender, EventArgs e)
@@ -36,7 +54,7 @@ namespace ManageSystem
                 this.Close();
             }
         }
-  
+
         private void tb_1_TextChanged(object sender, EventArgs e)
         {
 
@@ -45,10 +63,11 @@ namespace ManageSystem
         private void btn_DangNhap_Click(object sender, EventArgs e)
         {
 
-            if (txt_UserName != null && txt_Password != null)
+            if (txt_UserName.Text != "" && txt_Password.Text != "")
             {
-                ACCOUNT account = db.ACCOUNTs.FirstOrDefault(p => p.MANV.CompareTo(txt_UserName.Text) == 0 && p.PASSWORD.CompareTo(txt_Password.Text)==0);
-                
+                string pass = HashPassword(txt_Password.Text);
+                ACCOUNT account = db.ACCOUNTs.FirstOrDefault(p => p.USERNAME.CompareTo(txt_UserName.Text) == 0 && p.PASSWORD.CompareTo(pass) == 0);
+                //  a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
                 if (account != null)
                 {
                     FormHome formHome = new FormHome();
@@ -60,6 +79,10 @@ namespace ManageSystem
                 {
                     MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
                 }
+            }
+            else
+            {
+                MessageBox.Show("Vui Lòng Nhập Đầy Đủ Thông Tin");
             }
         }
     }

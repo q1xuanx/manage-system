@@ -16,7 +16,7 @@ namespace ManageSystem.Models
         [StringLength(50)]
         public string USERNAME { get; set; }
 
-        [StringLength(50)]
+        [StringLength(500)]
         public string PASSWORD { get; set; }
 
         public int? ROLE { get; set; }

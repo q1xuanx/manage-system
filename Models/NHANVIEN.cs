@@ -27,7 +27,7 @@ namespace ManageSystem.Models
         [StringLength(50)]
         public string DIACHI { get; set; }
 
-        public int ? GIOITINH { get; set; }
+        public int? GIOITINH { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime? NGAYSINH { get; set; }
