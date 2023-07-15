@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Validation;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +14,6 @@ using System.Windows.Forms;
 
 namespace ManageSystem.Forms
 {
-
-
     public partial class FormCreateEmployee : Form
     {
         DBContext db = new DBContext();
@@ -21,48 +21,45 @@ namespace ManageSystem.Forms
         {
             InitializeComponent();
         }
-
-        private string generateUUID()
+        private void comboboxPhong(List<PHONGBAN> phongBan)
         {
-            Guid myUUId = Guid.NewGuid();
-            string convertedUUID = myUUId.ToString();
-            return convertedUUID;
+            this.cmb_MaPhong.DataSource = phongBan;
+            this.cmb_MaPhong.DisplayMember = "TENPHONGBAN";
+            this.cmb_MaPhong.ValueMember = "MAPHONGBAN";
         }
 
-        private string generateUsername(string fullName)
+        private void comboboxTrinhDoHocVan (List<TRINHDOHOCVAN> trinhDoHocVan)
         {
-            string[] nameParts = fullName.Split(' ');
-            string lastName = nameParts[0]; // Họ là phần tử đầu tiên
-            string firstName = nameParts[nameParts.Length - 1]; // Tên là phần tử cuối cùng
-            string middleName = string.Join(" ", nameParts.Skip(1).Take(nameParts.Length - 2)); // Tên đệm là các phần tử còn lại
-
-            string reversedName = lastName.ToLower() + firstName.ToLower() + middleName.ToLower(); // Ghép các phần tử và chuyển thành chữ thường
-            return reversedName;
+            this.cmb_TrinhDo.DataSource = trinhDoHocVan;
+            this.cmb_TrinhDo.DisplayMember = "TENTRINHDO";
+            this.cmb_TrinhDo.ValueMember = "MATRINHDO";
         }
 
-        public string HashPassword(string password)
+        private void cmb_MaPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
-            using (SHA256 sha256 = SHA256.Create())
-            {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                StringBuilder builder = new StringBuilder();
-
-                for (int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-
-                return builder.ToString();
-            }
+        //    string name = cmb_MaPhong.SelectedValue.ToString();
+        //    List<PHONGBAN> phongBan = db.PHONGBANs.Where(p => p.MAPHONGBAN.Equals(name)).ToList();
+        //    comboboxPhong(phongBan);
+        //    cmb_MaPhong.Enabled = true;
         }
+
+        private void FormCreateEmployee_Load(object sender, EventArgs e)
+        {
+            List<PHONGBAN> listPhongBan = db.PHONGBANs.ToList();
+            comboboxPhong(listPhongBan);
+            List<TRINHDOHOCVAN> listTrinhDoHocVan = db.TRINHDOHOCVANs.ToList();
+            comboboxTrinhDoHocVan(listTrinhDoHocVan);
+        }
+
         private void btn_Tao_Click(object sender, EventArgs e)
         {
-            
-             try {
+            try
+            {
+                var id = Utils.generateUUID();
                 NHANVIEN checkNV = db.NHANVIENs.FirstOrDefault(nv => nv.EMAIL.Equals(txt_Email.Text) && nv.SDT.Equals(txt_SDT.Text));
                 if (checkNV == null)
                 {
-                    var id =generateUUID();
+
                     NHANVIEN nhanvien = new NHANVIEN()
                     {
                         MANV = id,
@@ -73,23 +70,22 @@ namespace ManageSystem.Forms
                         EMAIL = txt_Email.Text,
                         SDT = txt_SDT.Text,
                         DANTOC = txt_DanToc.Text,
-                        MAPHONGBAN = "1",
-                        MATRINHDO ="1",
+                        MAPHONGBAN = cmb_MaPhong.SelectedValue.ToString(),
+                        MATRINHDO = cmb_TrinhDo.SelectedValue.ToString(),
                     };
                     db.NHANVIENs.Add(nhanvien);
-
                     db.SaveChanges();
                     ACCOUNT aCCOUNT = new ACCOUNT()
                     {
-                        IDACCOUNT = generateUUID(),
-                        USERNAME = generateUsername(txt_Name.Text),
-                        PASSWORD = HashPassword("123"),
+                        IDACCOUNT = Utils.generateUUID(),
+                        USERNAME = Utils.GenerateUsername(txt_Name.Text),
+                        PASSWORD = Utils.HashPassword("123"),
                         ROLE = 1,
                         TRANGTHAI = 1,
                         MANV = id,
 
                     };
-                   
+
                     db.ACCOUNTs.Add(aCCOUNT);
                     db.SaveChanges();
                 }
@@ -97,10 +93,22 @@ namespace ManageSystem.Forms
                 {
                     MessageBox.Show("Email hoặc SĐT trùng");
                 }
-            }catch(Exception ex) {
-                MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            catch (DbEntityValidationException ex)
+            {
+                foreach (var validationErrors in ex.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        Console.WriteLine($"Property: {validationError.PropertyName}, Error: {validationError.ErrorMessage}");
+                    }
+                }
             }
 
+
         }
+
+
+
     }
 }

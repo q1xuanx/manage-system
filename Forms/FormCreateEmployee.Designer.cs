@@ -37,8 +37,6 @@
             this.cbb_BirthDay = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.txt_DanToc = new System.Windows.Forms.TextBox();
-            this.txt_MaTrinhDo = new System.Windows.Forms.TextBox();
-            this.txt_MaPhong = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_Tao = new System.Windows.Forms.Button();
@@ -49,6 +47,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txt_SDT = new System.Windows.Forms.TextBox();
             this.txt_Email = new System.Windows.Forms.TextBox();
+            this.cmb_MaPhong = new System.Windows.Forms.ComboBox();
+            this.cmb_TrinhDo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -128,37 +128,23 @@
             this.txt_DanToc.TabIndex = 10;
             this.txt_DanToc.Text = "ưqf";
             // 
-            // txt_MaTrinhDo
-            // 
-            this.txt_MaTrinhDo.Location = new System.Drawing.Point(243, 363);
-            this.txt_MaTrinhDo.Name = "txt_MaTrinhDo";
-            this.txt_MaTrinhDo.Size = new System.Drawing.Size(351, 22);
-            this.txt_MaTrinhDo.TabIndex = 15;
-            // 
-            // txt_MaPhong
-            // 
-            this.txt_MaPhong.Location = new System.Drawing.Point(243, 315);
-            this.txt_MaPhong.Name = "txt_MaPhong";
-            this.txt_MaPhong.Size = new System.Drawing.Size(351, 22);
-            this.txt_MaPhong.TabIndex = 14;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(128, 363);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 16);
+            this.label7.Size = new System.Drawing.Size(57, 16);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Mã Trình Độ";
+            this.label7.Text = "Trình Độ";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(128, 315);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 16);
+            this.label8.Size = new System.Drawing.Size(46, 16);
             this.label8.TabIndex = 12;
-            this.label8.Text = "Mã Phòng";
+            this.label8.Text = "Phòng";
             // 
             // btn_Tao
             // 
@@ -184,7 +170,7 @@
             // rbt_Nu
             // 
             this.rbt_Nu.AutoSize = true;
-            this.rbt_Nu.Location = new System.Drawing.Point(306, 207);
+            this.rbt_Nu.Location = new System.Drawing.Point(306, 209);
             this.rbt_Nu.Name = "rbt_Nu";
             this.rbt_Nu.Size = new System.Drawing.Size(45, 20);
             this.rbt_Nu.TabIndex = 18;
@@ -205,7 +191,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(405, 207);
+            this.label9.Location = new System.Drawing.Point(388, 207);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 16);
             this.label9.TabIndex = 20;
@@ -214,7 +200,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(405, 156);
+            this.label10.Location = new System.Drawing.Point(388, 156);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 16);
             this.label10.TabIndex = 21;
@@ -222,25 +208,44 @@
             // 
             // txt_SDT
             // 
-            this.txt_SDT.Location = new System.Drawing.Point(462, 156);
+            this.txt_SDT.Location = new System.Drawing.Point(435, 156);
             this.txt_SDT.Name = "txt_SDT";
-            this.txt_SDT.Size = new System.Drawing.Size(100, 22);
+            this.txt_SDT.Size = new System.Drawing.Size(159, 22);
             this.txt_SDT.TabIndex = 22;
             this.txt_SDT.Text = "123";
             // 
             // txt_Email
             // 
-            this.txt_Email.Location = new System.Drawing.Point(462, 201);
+            this.txt_Email.Location = new System.Drawing.Point(435, 201);
             this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(100, 22);
+            this.txt_Email.Size = new System.Drawing.Size(159, 22);
             this.txt_Email.TabIndex = 23;
             this.txt_Email.Text = "abvc";
+            // 
+            // cmb_MaPhong
+            // 
+            this.cmb_MaPhong.FormattingEnabled = true;
+            this.cmb_MaPhong.Location = new System.Drawing.Point(243, 315);
+            this.cmb_MaPhong.Name = "cmb_MaPhong";
+            this.cmb_MaPhong.Size = new System.Drawing.Size(351, 24);
+            this.cmb_MaPhong.TabIndex = 24;
+            this.cmb_MaPhong.SelectedIndexChanged += new System.EventHandler(this.cmb_MaPhong_SelectedIndexChanged);
+            // 
+            // cmb_TrinhDo
+            // 
+            this.cmb_TrinhDo.FormattingEnabled = true;
+            this.cmb_TrinhDo.Location = new System.Drawing.Point(243, 360);
+            this.cmb_TrinhDo.Name = "cmb_TrinhDo";
+            this.cmb_TrinhDo.Size = new System.Drawing.Size(351, 24);
+            this.cmb_TrinhDo.TabIndex = 25;
             // 
             // FormCreateEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmb_TrinhDo);
+            this.Controls.Add(this.cmb_MaPhong);
             this.Controls.Add(this.txt_Email);
             this.Controls.Add(this.txt_SDT);
             this.Controls.Add(this.label10);
@@ -249,8 +254,6 @@
             this.Controls.Add(this.rbt_Nu);
             this.Controls.Add(this.rbt_Nam);
             this.Controls.Add(this.btn_Tao);
-            this.Controls.Add(this.txt_MaTrinhDo);
-            this.Controls.Add(this.txt_MaPhong);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txt_DanToc);
@@ -264,6 +267,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormCreateEmployee";
             this.Text = "FormCreateEmployee";
+            this.Load += new System.EventHandler(this.FormCreateEmployee_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,8 +284,6 @@
         private System.Windows.Forms.DateTimePicker cbb_BirthDay;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txt_DanToc;
-        private System.Windows.Forms.TextBox txt_MaTrinhDo;
-        private System.Windows.Forms.TextBox txt_MaPhong;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_Tao;
@@ -292,5 +294,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txt_SDT;
         private System.Windows.Forms.TextBox txt_Email;
+        private System.Windows.Forms.ComboBox cmb_MaPhong;
+        private System.Windows.Forms.ComboBox cmb_TrinhDo;
     }
 }

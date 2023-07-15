@@ -73,6 +73,19 @@
     <Compile Include="Forms\FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormTrinhDoHocVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTrinhDoHocVan.Designer.cs">
+      <DependentUpon>FormTrinhDoHocVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utils.cs" />
+    <Compile Include="Forms\FormPhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPhongBan.Designer.cs">
+      <DependentUpon>FormPhongBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\ACCOUNT.cs" />
     <Compile Include="Models\BANGCHAMCONG.cs" />
     <Compile Include="Models\BANGLUONG.cs" />
@@ -95,6 +108,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormCreateEmployee.resx">
       <DependentUpon>FormCreateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPhongBan.resx">
+      <DependentUpon>FormPhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTrinhDoHocVan.resx">
+      <DependentUpon>FormTrinhDoHocVan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,5 +145,6 @@
   <ItemGroup>
     <None Include="Resources\ĐăngNhập.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

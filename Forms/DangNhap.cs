@@ -24,22 +24,6 @@ namespace ManageSystem
         }
 
 
-        public string HashPassword(string password)
-        {
-            using (SHA256 sha256 = SHA256.Create())
-            {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                StringBuilder builder = new StringBuilder();
-
-                for (int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-
-                return builder.ToString();
-            }
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -50,7 +34,7 @@ namespace ManageSystem
             var result = MessageBox.Show("Ban co muon thoat ?", "Exit", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                Console.WriteLine("Ban da thoat !");
+              
                 this.Close();
             }
         }
@@ -65,7 +49,8 @@ namespace ManageSystem
 
             if (txt_UserName.Text != "" && txt_Password.Text != "")
             {
-                string pass = HashPassword(txt_Password.Text);
+                
+                string pass = Utils.HashPassword(txt_Password.Text);
                 ACCOUNT account = db.ACCOUNTs.FirstOrDefault(p => p.USERNAME.CompareTo(txt_UserName.Text) == 0 && p.PASSWORD.CompareTo(pass) == 0);
                 //  a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
                 if (account != null)
