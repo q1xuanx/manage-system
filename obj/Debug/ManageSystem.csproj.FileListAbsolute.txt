@@ -1,0 +1,294 @@
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.exe.config
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\Winforms\ManageSystem\bin\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\Admin\Desktop\Winforms\ManageSystem\obj\Debug\ManageSystem.QuanLy.resources
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.QuanLy.resources
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\CNPM\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\admin\Desktop\CNPM\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\Admin\Desktop\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\Admin\Desktop\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\Admin\Desktop\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\Admin\Desktop\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Admin\Desktop\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\Admin\Desktop\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\ASUS\Desktop\manage-system\obj\Debug\ManageSystem.Forms.XuatBaoCao.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.XuatBaoCao.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiThongTin.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\bin\Debug\Guna.UI2.dll
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.Form1.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Downloads\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.Form1.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiThongTin.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.XuatBaoCao.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.AddNewAccount.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCongNhanVienMode.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.NhanVienMenu.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.QuanLyDon.resources
+C:\Users\Admin\Downloads\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.LamDon.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.AddNewAccount.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCongNhanVienMode.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.LamDon.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.NhanVienMenu.resources
+C:\Users\admin\Documents\ĐỒ ÁN QLNS\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.QuanLyDon.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\Guna.UI2.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.AddNewAccount.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCongNhanVienMode.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.Form1.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiThongTin.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.LamDon.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.NhanVienMenu.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.QuanLyDon.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.XuatBaoCao.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\admin\Downloads\QLNS-20230724T040705Z-001\QLNS\XuatBC\XuatBC\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ManageSystem.exe.config
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\MetroFramework.Design.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\MetroFramework.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\MetroSet UI.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.AddNewAccount.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.BangTinhLuong.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCong.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ChamCongNhanVienMode.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.DangNhap.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.Form1.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.FormCreateEmployee.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.MainMenu.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.GioiThieu.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiBangLuong.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.HienThiThongTin.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.LamDon.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.NhanVienMenu.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.PhongBan.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.QuanLyDon.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Properties.Resources.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.csproj.CopyComplete
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.exe
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.pdb
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.DanhSachChucVu.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.TrangChinhNhanVien.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.BaoCaoTTNhanVien.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\EnvDTE.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\stdole.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\XuatBC\manage-system\bin\Debug\MakeReport\ReportNhanVien.rdlc
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.ReportChamCong.resources
+C:\Users\Admin\Desktop\XuatBC\manage-system\obj\Debug\ManageSystem.Forms.LoadForm.resources
