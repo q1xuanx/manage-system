@@ -49,24 +49,22 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(233, 77);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(303, 96);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 21);
+            this.label1.Size = new System.Drawing.Size(91, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã NV";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(228, 107);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(303, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 18);
+            this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Ngày Nộp";
             // 
@@ -75,37 +73,36 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(227, 142);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(303, 176);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 18);
+            this.label3.Size = new System.Drawing.Size(95, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nội Dung ";
             // 
             // tb_manv
             // 
-            this.tb_manv.Location = new System.Drawing.Point(375, 78);
-            this.tb_manv.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.tb_manv.Location = new System.Drawing.Point(466, 96);
+            this.tb_manv.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.tb_manv.Name = "tb_manv";
             this.tb_manv.ReadOnly = true;
-            this.tb_manv.Size = new System.Drawing.Size(209, 20);
+            this.tb_manv.Size = new System.Drawing.Size(277, 22);
             this.tb_manv.TabIndex = 3;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(398, 107);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dateTimePicker1.Location = new System.Drawing.Point(505, 132);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(158, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(209, 22);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // rtb_nd
             // 
-            this.rtb_nd.Location = new System.Drawing.Point(329, 143);
-            this.rtb_nd.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.rtb_nd.Location = new System.Drawing.Point(413, 176);
+            this.rtb_nd.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.rtb_nd.Name = "rtb_nd";
-            this.rtb_nd.Size = new System.Drawing.Size(297, 91);
+            this.rtb_nd.Size = new System.Drawing.Size(395, 111);
             this.rtb_nd.TabIndex = 5;
             this.rtb_nd.Text = "";
             // 
@@ -113,10 +110,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(339, 287);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(452, 353);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(246, 26);
+            this.label4.Size = new System.Drawing.Size(304, 31);
             this.label4.TabIndex = 8;
             this.label4.Text = "Danh Sách Đơn Đã Nộp";
             // 
@@ -129,12 +125,12 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 314);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 386);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(931, 263);
+            this.dataGridView1.Size = new System.Drawing.Size(1241, 324);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -174,10 +170,10 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(360, 248);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(413, 305);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(103, 36);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(137, 44);
             this.guna2GradientButton1.TabIndex = 11;
             this.guna2GradientButton1.Text = "Nộp Đơn";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -191,9 +187,8 @@
             this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(883, 58);
+            this.label8.Size = new System.Drawing.Size(1177, 71);
             this.label8.TabIndex = 21;
             this.label8.Text = "    Làm Đơn";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,20 +205,20 @@
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(498, 248);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(671, 305);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(103, 36);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(137, 44);
             this.guna2GradientButton2.TabIndex = 22;
             this.guna2GradientButton2.Text = "Hủy Bỏ";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // LamDon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(147)))), ((int)(((byte)(198)))));
-            this.ClientSize = new System.Drawing.Size(883, 468);
+            this.ClientSize = new System.Drawing.Size(1177, 576);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.guna2GradientButton1);
@@ -235,7 +230,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "LamDon";
             this.Text = "LamDon";
             this.Load += new System.EventHandler(this.LamDon_Load);

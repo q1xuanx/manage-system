@@ -45,20 +45,19 @@
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(451, 122);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dateTimePicker1.Location = new System.Drawing.Point(554, 148);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(219, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(291, 22);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(220, 116);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(596, 106);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 28);
+            this.label1.Size = new System.Drawing.Size(219, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Ngày Chấm Công ";
             // 
@@ -71,12 +70,12 @@
             this.Column1,
             this.Column2});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 298);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 367);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1027, 181);
+            this.dataGridView1.Size = new System.Drawing.Size(1369, 223);
             this.dataGridView1.TabIndex = 2;
             // 
             // Column1
@@ -96,10 +95,9 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(337, 246);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(463, 306);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(376, 37);
+            this.label3.Size = new System.Drawing.Size(461, 46);
             this.label3.TabIndex = 6;
             this.label3.Text = "Danh Sách Chấm Công";
             // 
@@ -117,10 +115,10 @@
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.Image = global::ManageSystem.Properties.Resources.icons8_search_30;
             this.guna2GradientButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2GradientButton1.Location = new System.Drawing.Point(410, 178);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(525, 228);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(107, 36);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(151, 44);
             this.guna2GradientButton1.TabIndex = 5;
             this.guna2GradientButton1.Text = "Tìm kiếm";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -134,9 +132,8 @@
             this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1027, 58);
+            this.label8.Size = new System.Drawing.Size(1369, 71);
             this.label8.TabIndex = 22;
             this.label8.Text = "   Quản Lý Chấm Công";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,20 +152,20 @@
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.Image = global::ManageSystem.Properties.Resources.icons8_search_30__1_;
             this.guna2GradientButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2GradientButton2.Location = new System.Drawing.Point(551, 178);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(713, 228);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(119, 36);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(159, 44);
             this.guna2GradientButton2.TabIndex = 23;
             this.guna2GradientButton2.Text = "Xuất báo cáo";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // ChamCong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(147)))), ((int)(((byte)(198)))));
-            this.ClientSize = new System.Drawing.Size(1027, 479);
+            this.ClientSize = new System.Drawing.Size(1369, 590);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
@@ -176,7 +173,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "ChamCong";
             this.Text = "ChamCong";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

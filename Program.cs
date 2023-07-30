@@ -20,7 +20,7 @@ namespace ManageSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadForm());
+            Application.Run(new DangNhap());
         }
     }
 }

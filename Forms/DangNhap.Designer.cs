@@ -89,7 +89,7 @@
             // 
             this.btn_DangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(190)))), ((int)(((byte)(249)))));
             this.btn_DangNhap.ForeColor = System.Drawing.Color.White;
-            this.btn_DangNhap.Location = new System.Drawing.Point(471, 308);
+            this.btn_DangNhap.Location = new System.Drawing.Point(378, 337);
             this.btn_DangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.Size = new System.Drawing.Size(109, 35);
@@ -102,7 +102,7 @@
             // 
             this.bt_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(190)))), ((int)(((byte)(249)))));
             this.bt_2.ForeColor = System.Drawing.Color.White;
-            this.bt_2.Location = new System.Drawing.Point(283, 338);
+            this.bt_2.Location = new System.Drawing.Point(564, 337);
             this.bt_2.Margin = new System.Windows.Forms.Padding(4);
             this.bt_2.Name = "bt_2";
             this.bt_2.Size = new System.Drawing.Size(100, 36);
@@ -118,7 +118,7 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Location = new System.Drawing.Point(12, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 282);
+            this.panel1.Size = new System.Drawing.Size(300, 311);
             this.panel1.TabIndex = 8;
             // 
             // pictureBox1

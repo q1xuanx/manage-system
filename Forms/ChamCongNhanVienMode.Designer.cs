@@ -54,12 +54,12 @@
             this.Column3,
             this.Column4});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 366);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 292);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(943, 212);
+            this.dataGridView1.Size = new System.Drawing.Size(838, 170);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -94,29 +94,30 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(943, 84);
+            this.label1.Size = new System.Drawing.Size(838, 67);
             this.label1.TabIndex = 3;
             this.label1.Text = "Chấm Công Nhân Viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // DTP_ChamCong
             // 
+            this.DTP_ChamCong.BackColor = System.Drawing.Color.White;
             this.DTP_ChamCong.Checked = true;
             this.DTP_ChamCong.FillColor = System.Drawing.Color.White;
             this.DTP_ChamCong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.DTP_ChamCong.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.DTP_ChamCong.Location = new System.Drawing.Point(347, 110);
-            this.DTP_ChamCong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DTP_ChamCong.Location = new System.Drawing.Point(308, 88);
             this.DTP_ChamCong.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DTP_ChamCong.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DTP_ChamCong.Name = "DTP_ChamCong";
-            this.DTP_ChamCong.Size = new System.Drawing.Size(301, 45);
+            this.DTP_ChamCong.Size = new System.Drawing.Size(268, 36);
             this.DTP_ChamCong.TabIndex = 4;
             this.DTP_ChamCong.Value = new System.DateTime(2023, 7, 24, 0, 0, 0, 0);
             // 
             // btn_Chamcong
             // 
-            this.btn_Chamcong.BorderColor = System.Drawing.Color.DimGray;
+            this.btn_Chamcong.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Chamcong.BorderColor = System.Drawing.Color.DodgerBlue;
             this.btn_Chamcong.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
             this.btn_Chamcong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_Chamcong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -125,10 +126,9 @@
             this.btn_Chamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Chamcong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Chamcong.ForeColor = System.Drawing.Color.Black;
-            this.btn_Chamcong.Location = new System.Drawing.Point(419, 244);
-            this.btn_Chamcong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_Chamcong.Location = new System.Drawing.Point(383, 193);
             this.btn_Chamcong.Name = "btn_Chamcong";
-            this.btn_Chamcong.Size = new System.Drawing.Size(144, 62);
+            this.btn_Chamcong.Size = new System.Drawing.Size(128, 50);
             this.btn_Chamcong.TabIndex = 5;
             this.btn_Chamcong.Text = "Chấm Công";
             this.btn_Chamcong.Click += new System.EventHandler(this.btn_Chamcong_Click_1);
@@ -137,19 +137,19 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Image = global::ManageSystem.Properties.Resources.icons8_return_40;
-            this.button1.Location = new System.Drawing.Point(763, 244);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(743, 9);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 62);
+            this.button1.Size = new System.Drawing.Size(86, 50);
             this.button1.TabIndex = 45;
             this.button1.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(406, 180);
+            this.dateTimePicker1.Location = new System.Drawing.Point(362, 141);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(187, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(167, 22);
             this.dateTimePicker1.TabIndex = 47;
             // 
             // timer1
@@ -158,10 +158,10 @@
             // 
             // ChamCongNhanVienMode
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(943, 578);
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ClientSize = new System.Drawing.Size(838, 462);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Chamcong);
