@@ -50,7 +50,7 @@
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "ManageSystem.MakeReport.re.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(16, 210);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(985, 332);
@@ -61,6 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(253, 90);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -71,21 +72,24 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(511, 92);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(296, 22);
             this.dateTimePicker1.TabIndex = 2;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(433, 143);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 36);
             this.button1.TabIndex = 3;
             this.button1.Text = "Chọn";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
@@ -93,6 +97,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(324, 25);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -111,7 +116,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.reportViewer1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ReportChamCong";
             this.Text = "ReportChamCong";
             this.Load += new System.EventHandler(this.ReportChamCong_Load);

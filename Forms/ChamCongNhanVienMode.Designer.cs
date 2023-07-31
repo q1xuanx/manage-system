@@ -123,9 +123,9 @@
             this.btn_Chamcong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Chamcong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Chamcong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Chamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_Chamcong.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Chamcong.ForeColor = System.Drawing.Color.Black;
+            this.btn_Chamcong.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.btn_Chamcong.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Chamcong.ForeColor = System.Drawing.Color.White;
             this.btn_Chamcong.Location = new System.Drawing.Point(364, 192);
             this.btn_Chamcong.Name = "btn_Chamcong";
             this.btn_Chamcong.Size = new System.Drawing.Size(128, 50);

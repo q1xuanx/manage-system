@@ -45,7 +45,7 @@
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(504, 148);
+            this.dateTimePicker1.Location = new System.Drawing.Point(502, 162);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(291, 22);

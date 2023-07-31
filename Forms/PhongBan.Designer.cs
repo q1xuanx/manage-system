@@ -94,6 +94,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(364, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 16);
@@ -106,6 +107,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(364, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(113, 16);
@@ -136,6 +138,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(723, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 16);
@@ -157,6 +160,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(407, 352);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(410, 42);
@@ -178,14 +182,14 @@
             // 
             // btn_Xoa
             // 
-            this.btn_Xoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btn_Xoa.BackColor = System.Drawing.Color.Transparent;
             this.btn_Xoa.BorderRadius = 20;
+            this.btn_Xoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Xoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_Xoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Xoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Xoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Xoa.FillColor = System.Drawing.Color.Cyan;
+            this.btn_Xoa.FillColor = System.Drawing.Color.Red;
             this.btn_Xoa.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Xoa.ForeColor = System.Drawing.Color.White;
             this.btn_Xoa.Image = global::ManageSystem.Properties.Resources.icons8_delete_50;
@@ -245,7 +249,7 @@
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.MediumAquamarine;
+            this.guna2Button1.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.8F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::ManageSystem.Properties.Resources.icons8_add_50;

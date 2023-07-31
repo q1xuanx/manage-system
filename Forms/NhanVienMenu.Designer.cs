@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NhanVienMenu));
             this.label1 = new System.Windows.Forms.Label();
             this.lable_name = new System.Windows.Forms.Label();
             this.panel_show = new System.Windows.Forms.Panel();
@@ -167,8 +166,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::ManageSystem.Properties.Resources.Tím_Hiện_đại_Logo_Công_nghệ___Trò_chơi;
+            this.pictureBox1.Location = new System.Drawing.Point(3, -3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(178, 150);

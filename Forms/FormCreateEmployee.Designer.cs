@@ -115,7 +115,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(107, 385);
+            this.dataGridView1.Location = new System.Drawing.Point(108, 371);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -201,7 +201,7 @@
             this.btn_Them.ForeColor = System.Drawing.Color.White;
             this.btn_Them.Image = global::ManageSystem.Properties.Resources.icons8_add_50;
             this.btn_Them.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Them.Location = new System.Drawing.Point(413, 266);
+            this.btn_Them.Location = new System.Drawing.Point(409, 277);
             this.btn_Them.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Them.Name = "btn_Them";
             this.btn_Them.Size = new System.Drawing.Size(72, 61);
@@ -228,7 +228,7 @@
             this.btn_Capnhat.ForeColor = System.Drawing.Color.White;
             this.btn_Capnhat.Image = global::ManageSystem.Properties.Resources.icons8_edit_24__1_;
             this.btn_Capnhat.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Capnhat.Location = new System.Drawing.Point(550, 266);
+            this.btn_Capnhat.Location = new System.Drawing.Point(546, 277);
             this.btn_Capnhat.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Capnhat.Name = "btn_Capnhat";
             this.btn_Capnhat.Size = new System.Drawing.Size(73, 61);
@@ -248,12 +248,12 @@
             this.btn_Xoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Xoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Xoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Xoa.FillColor = System.Drawing.Color.DarkRed;
+            this.btn_Xoa.FillColor = System.Drawing.Color.Red;
             this.btn_Xoa.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Xoa.ForeColor = System.Drawing.Color.White;
             this.btn_Xoa.Image = global::ManageSystem.Properties.Resources.icons8_delete_50;
             this.btn_Xoa.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Xoa.Location = new System.Drawing.Point(680, 266);
+            this.btn_Xoa.Location = new System.Drawing.Point(676, 277);
             this.btn_Xoa.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(70, 61);
@@ -276,7 +276,7 @@
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1043, 74);
+            this.label6.Size = new System.Drawing.Size(1064, 74);
             this.label6.TabIndex = 19;
             this.label6.Text = "     Thông Tin Nhân Viên";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -287,7 +287,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(299, 93);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -301,7 +301,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(303, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -315,7 +315,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(303, 188);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -329,7 +329,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(303, 234);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -374,7 +374,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(670, 45);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -388,7 +388,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(670, 89);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
@@ -402,7 +402,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(670, 136);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
@@ -416,7 +416,7 @@
             this.rbt_Nam.AutoSize = true;
             this.rbt_Nam.BackColor = System.Drawing.Color.Transparent;
             this.rbt_Nam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbt_Nam.ForeColor = System.Drawing.Color.Black;
+            this.rbt_Nam.ForeColor = System.Drawing.Color.White;
             this.rbt_Nam.Location = new System.Drawing.Point(436, 233);
             this.rbt_Nam.Margin = new System.Windows.Forms.Padding(4);
             this.rbt_Nam.Name = "rbt_Nam";
@@ -432,7 +432,7 @@
             this.rbt_Nu.AutoSize = true;
             this.rbt_Nu.BackColor = System.Drawing.Color.Transparent;
             this.rbt_Nu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbt_Nu.ForeColor = System.Drawing.Color.Black;
+            this.rbt_Nu.ForeColor = System.Drawing.Color.White;
             this.rbt_Nu.Location = new System.Drawing.Point(572, 233);
             this.rbt_Nu.Margin = new System.Windows.Forms.Padding(4);
             this.rbt_Nu.Name = "rbt_Nu";
@@ -458,7 +458,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(299, 45);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
@@ -515,7 +515,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(670, 188);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
@@ -551,7 +551,7 @@
             // 
             this.ptcAvatar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ptcAvatar.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ptcAvatar.Location = new System.Drawing.Point(116, 40);
+            this.ptcAvatar.Location = new System.Drawing.Point(126, 40);
             this.ptcAvatar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ptcAvatar.Name = "ptcAvatar";
             this.ptcAvatar.Size = new System.Drawing.Size(165, 212);
@@ -578,14 +578,16 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.DarkGreen;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(954, 299);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 39);
             this.button2.TabIndex = 45;
             this.button2.Text = "Xuất Báo Cáo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // guna2GradientPanel1

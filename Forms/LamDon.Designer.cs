@@ -182,6 +182,7 @@
             // label8
             // 
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(133)))), ((int)(((byte)(216)))));
+            this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
