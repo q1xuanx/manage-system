@@ -40,7 +40,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(243, 66);
+            this.monthCalendar1.Location = new System.Drawing.Point(355, 102);
             this.monthCalendar1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 30);
+            this.label1.Location = new System.Drawing.Point(316, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 25);
             this.label1.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             this.label_date.AutoSize = true;
             this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_date.Location = new System.Drawing.Point(404, 30);
+            this.label_date.Location = new System.Drawing.Point(538, 48);
             this.label_date.Name = "label_date";
             this.label_date.Size = new System.Drawing.Size(79, 29);
             this.label_date.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.label_time.AutoSize = true;
             this.label_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_time.Location = new System.Drawing.Point(363, 305);
+            this.label_time.Location = new System.Drawing.Point(479, 364);
             this.label_time.Name = "label_time";
             this.label_time.Size = new System.Drawing.Size(64, 25);
             this.label_time.TabIndex = 3;
@@ -86,7 +86,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::ManageSystem.Properties.Resources.icons8_clock_50__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(263, 282);
+            this.pictureBox1.Location = new System.Drawing.Point(355, 341);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(76, 68);
@@ -100,7 +100,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(711, 359);
+            this.ClientSize = new System.Drawing.Size(978, 492);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_time);
             this.Controls.Add(this.label_date);

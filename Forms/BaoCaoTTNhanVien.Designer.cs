@@ -93,7 +93,7 @@
             reportDataSource1.Value = this.nHANVIENBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "ManageSystem.MakeReport.ReportNhanVien.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(12, 216);
+            this.reportViewer1.Location = new System.Drawing.Point(1, 227);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
@@ -107,14 +107,16 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1356, 598);
+            this.ClientSize = new System.Drawing.Size(1333, 598);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BaoCaoTTNhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BaoCaoTTNhanVien";
             this.Load += new System.EventHandler(this.BaoCaoTTNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();

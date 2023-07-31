@@ -106,7 +106,7 @@
             this.DTP_ChamCong.FillColor = System.Drawing.Color.White;
             this.DTP_ChamCong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.DTP_ChamCong.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.DTP_ChamCong.Location = new System.Drawing.Point(308, 88);
+            this.DTP_ChamCong.Location = new System.Drawing.Point(296, 88);
             this.DTP_ChamCong.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DTP_ChamCong.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DTP_ChamCong.Name = "DTP_ChamCong";
@@ -126,7 +126,7 @@
             this.btn_Chamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Chamcong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Chamcong.ForeColor = System.Drawing.Color.Black;
-            this.btn_Chamcong.Location = new System.Drawing.Point(383, 193);
+            this.btn_Chamcong.Location = new System.Drawing.Point(364, 192);
             this.btn_Chamcong.Name = "btn_Chamcong";
             this.btn_Chamcong.Size = new System.Drawing.Size(128, 50);
             this.btn_Chamcong.TabIndex = 5;
@@ -146,7 +146,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(362, 141);
+            this.dateTimePicker1.Location = new System.Drawing.Point(340, 148);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(167, 22);
@@ -172,6 +172,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ChamCongNhanVienMode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChamCongNhanVienMode";
             this.Load += new System.EventHandler(this.ChamCongNhanVienMode_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

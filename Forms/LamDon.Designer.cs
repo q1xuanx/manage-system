@@ -51,7 +51,7 @@
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(303, 96);
+            this.label1.Location = new System.Drawing.Point(214, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 26);
             this.label1.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(303, 132);
+            this.label2.Location = new System.Drawing.Point(214, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(303, 176);
+            this.label3.Location = new System.Drawing.Point(214, 176);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 24);
             this.label3.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             // tb_manv
             // 
-            this.tb_manv.Location = new System.Drawing.Point(466, 96);
+            this.tb_manv.Location = new System.Drawing.Point(377, 96);
             this.tb_manv.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.tb_manv.Name = "tb_manv";
             this.tb_manv.ReadOnly = true;
@@ -91,7 +91,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(505, 132);
+            this.dateTimePicker1.Location = new System.Drawing.Point(416, 132);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(209, 22);
@@ -99,7 +99,7 @@
             // 
             // rtb_nd
             // 
-            this.rtb_nd.Location = new System.Drawing.Point(413, 176);
+            this.rtb_nd.Location = new System.Drawing.Point(324, 176);
             this.rtb_nd.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.rtb_nd.Name = "rtb_nd";
             this.rtb_nd.Size = new System.Drawing.Size(395, 111);
@@ -110,7 +110,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(452, 353);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.Location = new System.Drawing.Point(363, 353);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(304, 31);
             this.label4.TabIndex = 8;
@@ -130,7 +131,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1241, 324);
+            this.dataGridView1.Size = new System.Drawing.Size(1002, 324);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -170,7 +171,7 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(413, 305);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(348, 305);
             this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(137, 44);
@@ -188,7 +189,7 @@
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1177, 71);
+            this.label8.Size = new System.Drawing.Size(978, 71);
             this.label8.TabIndex = 21;
             this.label8.Text = "    Làm Đơn";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -205,7 +206,7 @@
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(671, 305);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(530, 305);
             this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(137, 44);
@@ -218,7 +219,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(147)))), ((int)(((byte)(198)))));
-            this.ClientSize = new System.Drawing.Size(1177, 576);
+            this.ClientSize = new System.Drawing.Size(978, 492);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.guna2GradientButton1);

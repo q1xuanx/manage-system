@@ -68,9 +68,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quảnLýToolStripMenuItem,
+            this.xuấtBáoCáoToolStripMenuItem,
             this.càiĐặtToolStripMenuItem,
-            this.facebookToolStripMenuItem,
-            this.xuấtBáoCáoToolStripMenuItem});
+            this.facebookToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
@@ -156,7 +156,7 @@
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem.Image = global::ManageSystem.Properties.Resources.icons8_employee_24;
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(265, 30);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
             this.thôngTinTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.thôngTinTàiKhoảnToolStripMenuItem_Click);
             // 
@@ -164,7 +164,7 @@
             // 
             this.thêmTàiKhoảnNhânViênToolStripMenuItem.Image = global::ManageSystem.Properties.Resources.icons8_add_50;
             this.thêmTàiKhoảnNhânViênToolStripMenuItem.Name = "thêmTàiKhoảnNhânViênToolStripMenuItem";
-            this.thêmTàiKhoảnNhânViênToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
+            this.thêmTàiKhoảnNhânViênToolStripMenuItem.Size = new System.Drawing.Size(265, 30);
             this.thêmTàiKhoảnNhânViênToolStripMenuItem.Text = "Thêm tài khoản nhân viên";
             this.thêmTàiKhoảnNhânViênToolStripMenuItem.Click += new System.EventHandler(this.thêmTàiKhoảnNhânViênToolStripMenuItem_Click);
             // 
@@ -172,7 +172,7 @@
             // 
             this.đăngXuấtToolStripMenuItem.Image = global::ManageSystem.Properties.Resources.icons8_logout_48;
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(265, 30);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
@@ -415,9 +415,11 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panelShow);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU";
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.menuStrip1.ResumeLayout(false);

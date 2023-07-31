@@ -22,8 +22,8 @@ namespace ManageSystem.Forms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            panel2.Width += 3;
-            label4.Location = new System.Drawing.Point(label4.Location.X + 3, label4.Location.Y);
+            panel2.Width += 10;
+            label4.Location = new System.Drawing.Point(label4.Location.X + 10, label4.Location.Y);
             if (panel2.Width >= 845)
             {
                 this.Close();

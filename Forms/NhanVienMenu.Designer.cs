@@ -186,8 +186,10 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.panel_show);
             this.Controls.Add(this.lable_name);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "NhanVienMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NhanVienMenu";
             this.Load += new System.EventHandler(this.NhanVienMenu_Load);
             this.guna2GradientPanel1.ResumeLayout(false);

@@ -71,7 +71,7 @@ namespace ManageSystem.Forms
         {
             GioiThieu gt = new GioiThieu()
             {
-                AutoSize = true,
+                //AutoSize = true,
                 Dock = DockStyle.Fill,
                 TopMost = true,
                 TopLevel = false,
@@ -85,7 +85,7 @@ namespace ManageSystem.Forms
         {
             FormCreateEmployee create = new FormCreateEmployee()
             {
-                AutoSize = true,
+                Dock = DockStyle.Fill,
                 TopMost = true,
                 TopLevel = false
             };
@@ -158,7 +158,6 @@ namespace ManageSystem.Forms
                 Dock = DockStyle.Fill,
                 TopMost = true,
                 TopLevel = false,
-                AutoSize = true,
             };
             gt.FormBorderStyle = FormBorderStyle.None;
             panelShow.Controls.Add(gt);
