@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChinhNhanVien));
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.label1 = new System.Windows.Forms.Label();
             this.label_date = new System.Windows.Forms.Label();
@@ -41,7 +40,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(221, 66);
+            this.monthCalendar1.Location = new System.Drawing.Point(243, 66);
             this.monthCalendar1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
@@ -70,12 +69,13 @@
             // 
             this.label_time.AutoSize = true;
             this.label_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_time.Location = new System.Drawing.Point(352, 305);
+            this.label_time.Location = new System.Drawing.Point(363, 305);
             this.label_time.Name = "label_time";
             this.label_time.Size = new System.Drawing.Size(64, 25);
             this.label_time.TabIndex = 3;
             this.label_time.Text = "label2";
             this.label_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_time.Click += new System.EventHandler(this.label_time_Click);
             // 
             // timer1
             // 
@@ -84,8 +84,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(259, 282);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::ManageSystem.Properties.Resources.icons8_clock_50__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(263, 282);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(76, 68);

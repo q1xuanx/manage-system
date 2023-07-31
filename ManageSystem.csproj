@@ -329,6 +329,8 @@
     <None Include="Resources\White-Cat-Hello-GIF-unscreen.gif" />
     <None Include="Resources\364.gif" />
     <None Include="Resources\364-unscreen.gif" />
+    <None Include="Resources\icons8-clock-50.png" />
+    <None Include="Resources\icons8-clock-50 %281%29.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

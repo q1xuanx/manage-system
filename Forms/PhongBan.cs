@@ -50,35 +50,7 @@ namespace ManageSystem.Forms
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            try
-            {
-                PHONGBAN pb = db.PHONGBANs.FirstOrDefault(s => s.MAPHONGBAN == cb_MaPhong.Text);
-                if (pb == null)
-                {
-                    pb = new PHONGBAN()
-                    {
-                        MAPHONGBAN = cb_MaPhong.Text,
-                        TENPHONGBAN = cb_TenPhong.Text,
-                        TRANGTHAI = (cb_TinhTrang.Text == "Hoạt Động" ? 1 : 0),
-                    };
-                    db.PHONGBANs.Add(pb);
-                    MessageBox.Show("Thêm Mới Phòng Ban Thành Công");
-                }
-                else
-                {
-                    pb.MAPHONGBAN = cb_MaPhong.Text;
-                    pb.TENPHONGBAN = cb_TenPhong.Text;
-                    pb.TRANGTHAI = (cb_TinhTrang.Text == "Hoạt Động" ? 1 : 0);
-                    MessageBox.Show("Cập Nhật Thành Công");
-                }
-                db.SaveChanges();
-                List<PHONGBAN> ls = db.PHONGBANs.ToList();
-                BindGrid(ls);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+           
         }
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
@@ -117,6 +89,40 @@ namespace ManageSystem.Forms
         {
             DanhSachChucVu ds = new DanhSachChucVu();
             ds.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PHONGBAN pb = db.PHONGBANs.FirstOrDefault(s => s.MAPHONGBAN == cb_MaPhong.Text);
+                if (pb == null)
+                {
+                    pb = new PHONGBAN()
+                    {
+                        MAPHONGBAN = cb_MaPhong.Text,
+                        TENPHONGBAN = cb_TenPhong.Text,
+                        TRANGTHAI = (cb_TinhTrang.Text == "Hoạt Động" ? 1 : 0),
+                    };
+                    db.PHONGBANs.Add(pb);
+                    MessageBox.Show("Thêm Mới Phòng Ban Thành Công");
+                }
+                else
+                {
+                    pb.MAPHONGBAN = cb_MaPhong.Text;
+                    pb.TENPHONGBAN = cb_TenPhong.Text;
+                    pb.TRANGTHAI = (cb_TinhTrang.Text == "Hoạt Động" ? 1 : 0);
+                    MessageBox.Show("Cập Nhật Thành Công");
+                }
+                db.SaveChanges();
+                List<PHONGBAN> ls = db.PHONGBANs.ToList();
+                BindGrid(ls);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }

@@ -27,5 +27,10 @@ namespace ManageSystem.Forms
         {
             label_time.Text = DateTime.Now.ToString("T");
         }
+
+        private void label_time_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

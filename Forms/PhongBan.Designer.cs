@@ -41,11 +41,11 @@
             this.cb_TinhTrang = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Xoa = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Them = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Capnhat = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -176,19 +176,6 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 100);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(285, 270);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 48;
-            this.pictureBox1.TabStop = false;
-            // 
             // btn_Xoa
             // 
             this.btn_Xoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -198,7 +185,7 @@
             this.btn_Xoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Xoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Xoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Xoa.FillColor = System.Drawing.Color.OrangeRed;
+            this.btn_Xoa.FillColor = System.Drawing.Color.Cyan;
             this.btn_Xoa.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Xoa.ForeColor = System.Drawing.Color.White;
             this.btn_Xoa.Image = global::ManageSystem.Properties.Resources.icons8_delete_50;
@@ -209,31 +196,6 @@
             this.btn_Xoa.Size = new System.Drawing.Size(89, 60);
             this.btn_Xoa.TabIndex = 43;
             this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
-            // 
-            // btn_Them
-            // 
-            this.btn_Them.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_Them.Animated = true;
-            this.btn_Them.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Them.BackgroundImage = global::ManageSystem.Properties.Resources.icons8_add_50;
-            this.btn_Them.BorderRadius = 20;
-            this.btn_Them.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btn_Them.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Them.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Them.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_Them.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Them.FillColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn_Them.Font = new System.Drawing.Font("Segoe UI", 13.8F);
-            this.btn_Them.ForeColor = System.Drawing.Color.White;
-            this.btn_Them.Image = global::ManageSystem.Properties.Resources.icons8_add_50;
-            this.btn_Them.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Them.Location = new System.Drawing.Point(414, 215);
-            this.btn_Them.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_Them.Name = "btn_Them";
-            this.btn_Them.Size = new System.Drawing.Size(89, 60);
-            this.btn_Them.TabIndex = 44;
-            this.btn_Them.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // btn_Capnhat
             // 
@@ -250,7 +212,7 @@
             this.btn_Capnhat.ForeColor = System.Drawing.Color.White;
             this.btn_Capnhat.Image = global::ManageSystem.Properties.Resources.icons8_edit_24__1_;
             this.btn_Capnhat.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Capnhat.Location = new System.Drawing.Point(588, 215);
+            this.btn_Capnhat.Location = new System.Drawing.Point(599, 215);
             this.btn_Capnhat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Capnhat.Name = "btn_Capnhat";
             this.btn_Capnhat.Size = new System.Drawing.Size(89, 60);
@@ -273,17 +235,50 @@
             this.label6.Text = "   Danh Sách Phòng Ban";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 20;
+            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.MediumAquamarine;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.8F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = global::ManageSystem.Properties.Resources.icons8_add_50;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2Button1.Location = new System.Drawing.Point(437, 215);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(89, 60);
+            this.guna2Button1.TabIndex = 50;
+            this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::ManageSystem.Properties.Resources.Whrite_Tím_Hiện_đại_Logo_Công_nghệ___Trò_chơi;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(431, 314);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 51;
+            this.pictureBox1.TabStop = false;
+            // 
             // PhongBan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.ClientSize = new System.Drawing.Size(1197, 641);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Xoa);
-            this.Controls.Add(this.btn_Them);
             this.Controls.Add(this.btn_Capnhat);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cb_TinhTrang);
@@ -293,6 +288,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "PhongBan";
@@ -319,10 +315,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clm_TinhTrang;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Button btn_Xoa;
-        private Guna.UI2.WinForms.Guna2Button btn_Them;
         private Guna.UI2.WinForms.Guna2Button btn_Capnhat;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
