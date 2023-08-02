@@ -40,14 +40,6 @@ namespace ManageSystem.Forms
             gt.BringToFront();
             gt.Show();
         }
-        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            MessageBox.Show("Bạn có muốn thoát ?", "Xác Nhận", MessageBoxButtons.YesNo);
-            {
-                Application.Exit();
-            }
-        }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -188,6 +180,12 @@ namespace ManageSystem.Forms
             panelShow.Controls.Add(gt);
             gt.BringToFront();
             gt.Show();
+        }
+
+        private void thêmHìnhĐểĐăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FaceRecog fc = new FaceRecog();
+            fc.Show();
         }
     }
 }

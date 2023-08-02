@@ -11,12 +11,33 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Emgu.CV;
+using Emgu.CV.Structure;
+using Emgu.CV.Face;
+using Emgu.CV.CvEnum;
+using Emgu.CV.Shape;
 using MainMenu = ManageSystem.Forms.MainMenu;
+using System.IO;
+using System.Data.Entity.Core.Metadata.Edm;
+using System.Diagnostics;
+using System.Threading;
 
 namespace ManageSystem
 {
     public partial class DangNhap : Form
     {
+        #region LoginFaces
+        private Capture videoCapture = null;
+        private Image<Bgr, Byte> curFrame = null;
+        List<Image<Gray, Byte>> TrainedFaces = new List<Image<Gray, byte>>();
+        List<int> PersonsLabes = new List<int>();
+        private bool isTrained = false;
+        EigenFaceRecognizer recognizer;
+        List<string> PersonsNames = new List<string>();
+        CascadeClassifier cascadeClassifier = new CascadeClassifier("haarcascade_frontalface_alt.xml");
+        Mat frame = new Mat();
+        static bool checkOK = false;
+        #endregion
         Model1 db = new Model1();
         public static string currAccount = "";
         public DangNhap()
@@ -101,6 +122,100 @@ namespace ManageSystem
             }
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TrainImageFromDir();
+            videoCapture = new Capture();
+            videoCapture.ImageGrabbed += Device_NewFrame;
+            videoCapture.Start();
+        }
+        private void Device_NewFrame(object sender, EventArgs e)
+        {
+            videoCapture.Retrieve(frame, 0);
+            curFrame = frame.ToImage<Bgr, Byte>().Resize(pictureBox3.Width, pictureBox3.Height, Inter.Cubic);
+            Mat grayImage = new Mat();
+            CvInvoke.CvtColor(curFrame, grayImage, ColorConversion.Bgr2Gray);
+            CvInvoke.EqualizeHist(grayImage, grayImage);
+            Rectangle[] faces = cascadeClassifier.DetectMultiScale(grayImage, 1.1, 3, Size.Empty, Size.Empty);
+            if (faces.Length > 0)
+            {
+                foreach (var item in faces)
+                {
+                    Image<Bgr, Byte> resultImage = curFrame.Convert<Bgr, Byte>();
+                    resultImage.ROI = item;
+                    if (isTrained)
+                    {
+                        Image<Gray, Byte> grayFaceResult = resultImage.Convert<Gray, Byte>().Resize(200, 200, Inter.Cubic);
+                        CvInvoke.EqualizeHist(grayFaceResult, grayFaceResult);                       
+                        var result = recognizer.Predict(grayFaceResult);
+                        if (result.Label != -1)
+                        {
+                            CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Green).MCvScalar, 2);
+                            pictureBox3.Invoke(new MethodInvoker(delegate
+                            {
+                                MainMenu mn = new MainMenu(this);
+                                LoadForm lf = new LoadForm();
+                                this.Hide();
+                                videoCapture.Stop();
+                                lf.Show();
+                                while (!lf.IsDisposed)
+                                {
+                                    Application.DoEvents();
+                                }
+                                mn.Show();
+                                pictureBox3.Image = null;
+                            }));
+                        }
+                        else
+                        {
+                            CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Red).MCvScalar, 2);
+                            videoCapture.Stop();
+                            checkOK = false;
+                        }
+                    }
+                }
+            }
+            pictureBox3.Image = curFrame.Bitmap;
+        }
+        private bool TrainImageFromDir()
+        {
+            int imgCount = 0;
+            TrainedFaces.Clear();
+            PersonsLabes.Clear();
+            PersonsNames.Clear();
+            try
+            {
+                string path = Directory.GetCurrentDirectory() + @"\FaceToTrain";
+                string[] files = Directory.GetFiles(path, "*.jpg", SearchOption.AllDirectories);
+                foreach (var file in files)
+                {
+                    Image<Gray, Byte> trainedImage = new Image<Gray, Byte>(file).Resize(200, 200, Inter.Cubic);
+                    CvInvoke.EqualizeHist(trainedImage, trainedImage);
+                    TrainedFaces.Add(trainedImage);
+                    PersonsLabes.Add(imgCount);
+                    string name = file.Split('\\').Last().Split('_')[0];
+                    PersonsNames.Add(name);
+                    imgCount++;
+                    Debug.WriteLine(imgCount + ". " + name);
+                }
+                if (TrainedFaces.Count() > 0)
+                {
+                    recognizer = new EigenFaceRecognizer(imgCount);
+                    recognizer.Train(TrainedFaces.ToArray(), PersonsLabes.ToArray());
+                    isTrained = true;
+                    return true;
+                }
+                else
+                {
+                    isTrained = false;
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
     }
 }
