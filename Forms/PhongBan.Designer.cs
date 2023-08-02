@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PhongBan));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.clm_MaPhongBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm_PhongBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,18 +54,18 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.ColumnHeadersHeight = 29;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.clm_MaPhongBan,
             this.clm_PhongBan,
             this.clm_TinhTrang});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 395);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 394);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1269, 226);
+            this.dataGridView1.Size = new System.Drawing.Size(1243, 295);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -95,7 +94,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(364, 114);
+            this.label2.Location = new System.Drawing.Point(377, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 16);
             this.label2.TabIndex = 2;
@@ -108,7 +107,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(364, 149);
+            this.label3.Location = new System.Drawing.Point(377, 157);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(113, 16);
             this.label3.TabIndex = 3;
@@ -117,7 +116,7 @@
             // cb_MaPhong
             // 
             this.cb_MaPhong.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cb_MaPhong.Location = new System.Drawing.Point(492, 111);
+            this.cb_MaPhong.Location = new System.Drawing.Point(515, 113);
             this.cb_MaPhong.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.cb_MaPhong.Name = "cb_MaPhong";
             this.cb_MaPhong.Size = new System.Drawing.Size(176, 22);
@@ -126,7 +125,7 @@
             // cb_TenPhong
             // 
             this.cb_TenPhong.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cb_TenPhong.Location = new System.Drawing.Point(492, 149);
+            this.cb_TenPhong.Location = new System.Drawing.Point(515, 151);
             this.cb_TenPhong.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.cb_TenPhong.Name = "cb_TenPhong";
             this.cb_TenPhong.Size = new System.Drawing.Size(176, 22);
@@ -139,7 +138,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(723, 114);
+            this.label4.Location = new System.Drawing.Point(742, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 16);
             this.label4.TabIndex = 7;
@@ -149,7 +148,7 @@
             // 
             this.cb_TinhTrang.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cb_TinhTrang.FormattingEnabled = true;
-            this.cb_TinhTrang.Location = new System.Drawing.Point(820, 110);
+            this.cb_TinhTrang.Location = new System.Drawing.Point(845, 113);
             this.cb_TinhTrang.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.cb_TinhTrang.Name = "cb_TinhTrang";
             this.cb_TinhTrang.Size = new System.Drawing.Size(176, 24);
@@ -161,7 +160,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(407, 352);
+            this.label1.Location = new System.Drawing.Point(414, 328);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(410, 42);
             this.label1.TabIndex = 47;
@@ -171,7 +170,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(895, 334);
+            this.button2.Location = new System.Drawing.Point(865, 328);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 36);
@@ -194,7 +193,7 @@
             this.btn_Xoa.ForeColor = System.Drawing.Color.White;
             this.btn_Xoa.Image = global::ManageSystem.Properties.Resources.icons8_delete_50;
             this.btn_Xoa.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Xoa.Location = new System.Drawing.Point(792, 215);
+            this.btn_Xoa.Location = new System.Drawing.Point(932, 217);
             this.btn_Xoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(89, 60);
@@ -216,7 +215,7 @@
             this.btn_Capnhat.ForeColor = System.Drawing.Color.White;
             this.btn_Capnhat.Image = global::ManageSystem.Properties.Resources.icons8_edit_24__1_;
             this.btn_Capnhat.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Capnhat.Location = new System.Drawing.Point(635, 215);
+            this.btn_Capnhat.Location = new System.Drawing.Point(724, 217);
             this.btn_Capnhat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Capnhat.Name = "btn_Capnhat";
             this.btn_Capnhat.Size = new System.Drawing.Size(89, 60);
@@ -226,15 +225,14 @@
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(133)))), ((int)(((byte)(216)))));
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Dock = System.Windows.Forms.DockStyle.Top;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1269, 73);
+            this.label6.Size = new System.Drawing.Size(1211, 73);
             this.label6.TabIndex = 20;
             this.label6.Text = "   Danh Sách Phòng Ban";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -254,7 +252,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::ManageSystem.Properties.Resources.icons8_add_50;
             this.guna2Button1.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button1.Location = new System.Drawing.Point(473, 215);
+            this.guna2Button1.Location = new System.Drawing.Point(515, 217);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(89, 60);
@@ -266,9 +264,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::ManageSystem.Properties.Resources.Whrite_Tím_Hiện_đại_Logo_Công_nghệ___Trò_chơi;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(431, 314);
+            this.pictureBox1.Size = new System.Drawing.Size(358, 390);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -278,7 +276,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
-            this.ClientSize = new System.Drawing.Size(1269, 621);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1211, 686);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
@@ -294,6 +293,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "PhongBan";
             this.Text = "PhongBan";

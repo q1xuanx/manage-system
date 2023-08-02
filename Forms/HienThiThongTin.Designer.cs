@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HienThiThongTin));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,11 +45,12 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(84, 117);
+            this.label2.Location = new System.Drawing.Point(60, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 18);
+            this.label2.Size = new System.Drawing.Size(110, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên tài khoản";
             // 
@@ -58,11 +58,12 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(88, 174);
+            this.label3.Location = new System.Drawing.Point(64, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 18);
+            this.label3.Size = new System.Drawing.Size(103, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu Cũ";
             // 
@@ -70,11 +71,12 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(85, 240);
+            this.label4.Location = new System.Drawing.Point(61, 240);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 18);
+            this.label4.Size = new System.Drawing.Size(110, 18);
             this.label4.TabIndex = 3;
             this.label4.Text = "Mật khẩu mới";
             // 
@@ -110,11 +112,12 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(35, 299);
+            this.label6.Location = new System.Drawing.Point(11, 299);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 18);
+            this.label6.Size = new System.Drawing.Size(185, 18);
             this.label6.TabIndex = 7;
             this.label6.Text = "Xác nhận mật khẩu mới";
             // 
@@ -130,6 +133,7 @@
             // btn_Thaydoi
             // 
             this.btn_Thaydoi.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_Thaydoi.BackColor = System.Drawing.Color.Transparent;
             this.btn_Thaydoi.BorderRadius = 20;
             this.btn_Thaydoi.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
             this.btn_Thaydoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -140,7 +144,7 @@
             this.btn_Thaydoi.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.btn_Thaydoi.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Thaydoi.ForeColor = System.Drawing.Color.White;
-            this.btn_Thaydoi.Location = new System.Drawing.Point(275, 352);
+            this.btn_Thaydoi.Location = new System.Drawing.Point(223, 351);
             this.btn_Thaydoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Thaydoi.Name = "btn_Thaydoi";
             this.btn_Thaydoi.Size = new System.Drawing.Size(101, 46);
@@ -150,12 +154,11 @@
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(133)))), ((int)(((byte)(216)))));
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
@@ -168,7 +171,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.Image = global::ManageSystem.Properties.Resources.icons8_return_40;
-            this.button1.Location = new System.Drawing.Point(491, 350);
+            this.button1.Location = new System.Drawing.Point(396, 350);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(68, 47);
@@ -182,6 +185,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(147)))), ((int)(((byte)(198)))));
+            this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(615, 462);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btn_Thaydoi);

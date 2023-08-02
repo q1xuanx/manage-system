@@ -48,33 +48,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(316, 48);
+            this.label1.Location = new System.Drawing.Point(316, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 25);
+            this.label1.Size = new System.Drawing.Size(186, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Hôm nay là ngày: ";
             // 
             // label_date
             // 
             this.label_date.AutoSize = true;
-            this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_date.BackColor = System.Drawing.Color.Transparent;
+            this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_date.ForeColor = System.Drawing.Color.White;
             this.label_date.Location = new System.Drawing.Point(538, 48);
             this.label_date.Name = "label_date";
-            this.label_date.Size = new System.Drawing.Size(79, 29);
+            this.label_date.Size = new System.Drawing.Size(85, 29);
             this.label_date.TabIndex = 2;
             this.label_date.Text = "label2";
             // 
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_time.BackColor = System.Drawing.Color.Transparent;
+            this.label_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_time.ForeColor = System.Drawing.Color.White;
             this.label_time.Location = new System.Drawing.Point(479, 364);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(64, 25);
+            this.label_time.Size = new System.Drawing.Size(70, 25);
             this.label_time.TabIndex = 3;
             this.label_time.Text = "label2";
             this.label_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,6 +105,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(978, 492);
             this.Controls.Add(this.pictureBox1);
@@ -109,6 +113,7 @@
             this.Controls.Add(this.label_date);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.monthCalendar1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TrangChinhNhanVien";
             this.Text = "TrangChinhNhanVien";

@@ -54,7 +54,7 @@
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(534, 102);
+            this.comboBox1.Location = new System.Drawing.Point(505, 102);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(221, 24);
@@ -73,12 +73,12 @@
             this.Column3,
             this.Column4});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 331);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 396);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1269, 290);
+            this.dataGridView1.Size = new System.Drawing.Size(1211, 290);
             this.dataGridView1.TabIndex = 6;
             // 
             // Column1
@@ -122,7 +122,7 @@
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePicker1.CustomFormat = "MMMM/ yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(536, 150);
+            this.dateTimePicker1.Location = new System.Drawing.Point(507, 150);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(220, 22);
@@ -131,6 +131,7 @@
             // btn_TinhLuong
             // 
             this.btn_TinhLuong.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_TinhLuong.BackColor = System.Drawing.Color.Transparent;
             this.btn_TinhLuong.BorderRadius = 20;
             this.btn_TinhLuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_TinhLuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -141,7 +142,7 @@
             this.btn_TinhLuong.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
             this.btn_TinhLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_TinhLuong.ForeColor = System.Drawing.Color.White;
-            this.btn_TinhLuong.Location = new System.Drawing.Point(350, 216);
+            this.btn_TinhLuong.Location = new System.Drawing.Point(321, 216);
             this.btn_TinhLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_TinhLuong.Name = "btn_TinhLuong";
             this.btn_TinhLuong.Size = new System.Drawing.Size(135, 59);
@@ -152,6 +153,7 @@
             // btn_Dieuchinh
             // 
             this.btn_Dieuchinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_Dieuchinh.BackColor = System.Drawing.Color.Transparent;
             this.btn_Dieuchinh.BorderRadius = 20;
             this.btn_Dieuchinh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_Dieuchinh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -162,7 +164,7 @@
             this.btn_Dieuchinh.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
             this.btn_Dieuchinh.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Dieuchinh.ForeColor = System.Drawing.Color.White;
-            this.btn_Dieuchinh.Location = new System.Drawing.Point(771, 216);
+            this.btn_Dieuchinh.Location = new System.Drawing.Point(742, 216);
             this.btn_Dieuchinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Dieuchinh.Name = "btn_Dieuchinh";
             this.btn_Dieuchinh.Size = new System.Drawing.Size(121, 59);
@@ -175,7 +177,7 @@
             this.metroSetLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel1.IsDerivedStyle = true;
-            this.metroSetLabel1.Location = new System.Drawing.Point(420, 103);
+            this.metroSetLabel1.Location = new System.Drawing.Point(391, 103);
             this.metroSetLabel1.Name = "metroSetLabel1";
             this.metroSetLabel1.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel1.Style = MetroSet_UI.Enums.Style.Light;
@@ -190,7 +192,7 @@
             this.metroSetLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel2.IsDerivedStyle = true;
-            this.metroSetLabel2.Location = new System.Drawing.Point(420, 150);
+            this.metroSetLabel2.Location = new System.Drawing.Point(391, 150);
             this.metroSetLabel2.Name = "metroSetLabel2";
             this.metroSetLabel2.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel2.Style = MetroSet_UI.Enums.Style.Light;
@@ -203,10 +205,11 @@
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.Controls.Add(this.metroSetLabel3);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(149)))), ((int)(((byte)(244)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(-29, 0);
             this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1269, 76);
@@ -231,6 +234,7 @@
             // guna2GradientButton1
             // 
             this.guna2GradientButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton1.BorderRadius = 20;
             this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -241,7 +245,7 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(563, 216);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(534, 216);
             this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(135, 59);
@@ -252,9 +256,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(413, 288);
+            this.label1.Location = new System.Drawing.Point(384, 324);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(437, 42);
@@ -267,7 +272,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(147)))), ((int)(((byte)(198)))));
-            this.ClientSize = new System.Drawing.Size(1269, 621);
+            this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1211, 686);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2GradientPanel1);

@@ -44,29 +44,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(183, 23);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(176, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 25);
+            this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin chào: ";
             // 
             // lable_name
             // 
             this.lable_name.AutoSize = true;
-            this.lable_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lable_name.Location = new System.Drawing.Point(282, 23);
+            this.lable_name.BackColor = System.Drawing.Color.Transparent;
+            this.lable_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lable_name.Location = new System.Drawing.Point(292, 19);
             this.lable_name.Name = "lable_name";
-            this.lable_name.Size = new System.Drawing.Size(64, 25);
+            this.lable_name.Size = new System.Drawing.Size(70, 25);
             this.lable_name.TabIndex = 1;
             this.lable_name.Text = "label2";
             // 
             // panel_show
             // 
-            this.panel_show.Location = new System.Drawing.Point(183, 46);
+            this.panel_show.BackColor = System.Drawing.Color.Transparent;
+            this.panel_show.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel_show.Location = new System.Drawing.Point(181, 46);
             this.panel_show.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel_show.Name = "panel_show";
-            this.panel_show.Size = new System.Drawing.Size(996, 539);
+            this.panel_show.Size = new System.Drawing.Size(1000, 551);
             this.panel_show.TabIndex = 3;
             // 
             // guna2GradientButton1
@@ -133,15 +137,16 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton4);
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton1);
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton3);
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton2);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(143)))), ((int)(((byte)(246)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(3, 143);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(174, 442);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(174, 454);
             this.guna2GradientPanel1.TabIndex = 5;
             // 
             // guna2GradientButton4
@@ -166,12 +171,13 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::ManageSystem.Properties.Resources.Tím_Hiện_đại_Logo_Công_nghệ___Trò_chơi;
             this.pictureBox1.Location = new System.Drawing.Point(3, -3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(174, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -180,6 +186,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.ClientSize = new System.Drawing.Size(1182, 598);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
