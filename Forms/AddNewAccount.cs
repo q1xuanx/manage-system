@@ -19,10 +19,6 @@ namespace ManageSystem.Forms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void AddNewAccount_Load(object sender, EventArgs e)
         {
@@ -65,6 +61,21 @@ namespace ManageSystem.Forms
             {
                 MessageBox.Show("Nhân viên trên đã có tài khoản");
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            tb_IDUSER.Text = null;
+            tb_username.Text = null;
+            tb_manv.Text = null;    
+            tb_password.Text = null;
+            cmb_role.Text =  null;
+            cmb_trangthai.Text = null;
         }
     }
 }

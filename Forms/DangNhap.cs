@@ -131,51 +131,54 @@ namespace ManageSystem
         }
         private void Device_NewFrame(object sender, EventArgs e)
         {
-            videoCapture.Retrieve(frame, 0);
-            curFrame = frame.ToImage<Bgr, Byte>().Resize(pictureBox3.Width, pictureBox3.Height, Inter.Cubic);
-            Mat grayImage = new Mat();
-            CvInvoke.CvtColor(curFrame, grayImage, ColorConversion.Bgr2Gray);
-            CvInvoke.EqualizeHist(grayImage, grayImage);
-            Rectangle[] faces = cascadeClassifier.DetectMultiScale(grayImage, 1.1, 3, Size.Empty, Size.Empty);
-            if (faces.Length > 0)
+            if (videoCapture != null && videoCapture.Ptr != IntPtr.Zero)
             {
-                foreach (var item in faces)
+                videoCapture.Retrieve(frame, 0);
+                curFrame = frame.ToImage<Bgr, Byte>().Resize(pictureBox3.Width, pictureBox3.Height, Inter.Cubic);
+                Mat grayImage = new Mat();
+                CvInvoke.CvtColor(curFrame, grayImage, ColorConversion.Bgr2Gray);
+                CvInvoke.EqualizeHist(grayImage, grayImage);
+                Rectangle[] faces = cascadeClassifier.DetectMultiScale(grayImage, 1.1, 3, Size.Empty, Size.Empty);
+                if (faces.Length > 0)
                 {
-                    Image<Bgr, Byte> resultImage = curFrame.Convert<Bgr, Byte>();
-                    resultImage.ROI = item;
-                    if (isTrained)
+                    foreach (var item in faces)
                     {
-                        Image<Gray, Byte> grayFaceResult = resultImage.Convert<Gray, Byte>().Resize(200, 200, Inter.Cubic);
-                        CvInvoke.EqualizeHist(grayFaceResult, grayFaceResult);                       
-                        var result = recognizer.Predict(grayFaceResult);
-                        if (result.Label != -1)
+                        Image<Bgr, Byte> resultImage = curFrame.Convert<Bgr, Byte>();
+                        resultImage.ROI = item;
+                        if (isTrained)
                         {
-                            CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Green).MCvScalar, 2);
-                            pictureBox3.Invoke(new MethodInvoker(delegate
+                            Image<Gray, Byte> grayFaceResult = resultImage.Convert<Gray, Byte>().Resize(200, 200, Inter.Cubic);
+                            CvInvoke.EqualizeHist(grayFaceResult, grayFaceResult);
+                            var result = recognizer.Predict(grayFaceResult);
+                            if (result.Label != -1)
                             {
-                                MainMenu mn = new MainMenu(this);
-                                LoadForm lf = new LoadForm();
-                                this.Hide();
-                                videoCapture.Stop();
-                                lf.Show();
-                                while (!lf.IsDisposed)
+                                CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Green).MCvScalar, 2);
+                                pictureBox3.Invoke(new MethodInvoker(delegate
                                 {
-                                    Application.DoEvents();
-                                }
-                                mn.Show();
-                                pictureBox3.Image = null;
-                            }));
-                        }
-                        else
-                        {
-                            CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Red).MCvScalar, 2);
-                            videoCapture.Stop();
-                            checkOK = false;
+                                    MainMenu mn = new MainMenu(this);
+                                    LoadForm lf = new LoadForm();
+                                    this.Hide();
+                                    videoCapture.Stop();
+                                    lf.Show();
+                                    while (!lf.IsDisposed)
+                                    {
+                                        Application.DoEvents();
+                                    }
+                                    mn.Show();
+                                    pictureBox3.Image = null;
+                                }));
+                            }
+                            else
+                            {
+                                CvInvoke.Rectangle(curFrame, item, new Bgr(Color.Red).MCvScalar, 2);
+                                videoCapture.Stop();
+                                checkOK = false;
+                            }
                         }
                     }
                 }
+                pictureBox3.Image = curFrame.Bitmap;
             }
-            pictureBox3.Image = curFrame.Bitmap;
         }
         private bool TrainImageFromDir()
         {
