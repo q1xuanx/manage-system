@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbPhongBan = new System.Windows.Forms.ComboBox();
+            this.dgvBangLuongNV = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.btn_TinhLuong = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btn_Dieuchinh = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.dtpTG = new System.Windows.Forms.DateTimePicker();
+            this.ggbtn_TinhLuong = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Dieuchinh = new Guna.UI2.WinForms.Guna2GradientButton();
             this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
             this.metroSetLabel2 = new MetroSet_UI.Controls.MetroSetLabel();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.metroSetLabel3 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Huy = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBangLuongNV)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cmbPhongBan
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(505, 102);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(221, 24);
-            this.comboBox1.TabIndex = 5;
+            this.cmbPhongBan.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cmbPhongBan.BackColor = System.Drawing.Color.White;
+            this.cmbPhongBan.FormattingEnabled = true;
+            this.cmbPhongBan.Location = new System.Drawing.Point(505, 102);
+            this.cmbPhongBan.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.cmbPhongBan.Name = "cmbPhongBan";
+            this.cmbPhongBan.Size = new System.Drawing.Size(221, 24);
+            this.cmbPhongBan.TabIndex = 5;
             // 
-            // dataGridView1
+            // dgvBangLuongNV
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvBangLuongNV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvBangLuongNV.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvBangLuongNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBangLuongNV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column5,
             this.Column6,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 396);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1211, 290);
-            this.dataGridView1.TabIndex = 6;
+            this.dgvBangLuongNV.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvBangLuongNV.Location = new System.Drawing.Point(0, 396);
+            this.dgvBangLuongNV.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.dgvBangLuongNV.Name = "dgvBangLuongNV";
+            this.dgvBangLuongNV.RowHeadersWidth = 62;
+            this.dgvBangLuongNV.RowTemplate.Height = 28;
+            this.dgvBangLuongNV.Size = new System.Drawing.Size(1211, 290);
+            this.dgvBangLuongNV.TabIndex = 6;
             // 
             // Column1
             // 
@@ -117,60 +117,60 @@
             this.Column4.MinimumWidth = 8;
             this.Column4.Name = "Column4";
             // 
-            // dateTimePicker1
+            // dtpTG
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dateTimePicker1.CustomFormat = "MMMM/ yyyy";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(507, 150);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(220, 22);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dtpTG.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dtpTG.CustomFormat = "MMMM/ yyyy";
+            this.dtpTG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTG.Location = new System.Drawing.Point(507, 150);
+            this.dtpTG.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.dtpTG.Name = "dtpTG";
+            this.dtpTG.Size = new System.Drawing.Size(220, 22);
+            this.dtpTG.TabIndex = 8;
             // 
-            // btn_TinhLuong
+            // ggbtn_TinhLuong
             // 
-            this.btn_TinhLuong.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_TinhLuong.BackColor = System.Drawing.Color.Transparent;
-            this.btn_TinhLuong.BorderRadius = 20;
-            this.btn_TinhLuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_TinhLuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_TinhLuong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_TinhLuong.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_TinhLuong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_TinhLuong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
-            this.btn_TinhLuong.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
-            this.btn_TinhLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_TinhLuong.ForeColor = System.Drawing.Color.White;
-            this.btn_TinhLuong.Location = new System.Drawing.Point(321, 216);
-            this.btn_TinhLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_TinhLuong.Name = "btn_TinhLuong";
-            this.btn_TinhLuong.Size = new System.Drawing.Size(135, 59);
-            this.btn_TinhLuong.TabIndex = 11;
-            this.btn_TinhLuong.Text = "Tính Lương";
-            this.btn_TinhLuong.Click += new System.EventHandler(this.btn_TinhLuong_Click);
+            this.ggbtn_TinhLuong.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ggbtn_TinhLuong.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_TinhLuong.BorderRadius = 20;
+            this.ggbtn_TinhLuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_TinhLuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_TinhLuong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_TinhLuong.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_TinhLuong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_TinhLuong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
+            this.ggbtn_TinhLuong.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
+            this.ggbtn_TinhLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_TinhLuong.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_TinhLuong.Location = new System.Drawing.Point(321, 216);
+            this.ggbtn_TinhLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ggbtn_TinhLuong.Name = "ggbtn_TinhLuong";
+            this.ggbtn_TinhLuong.Size = new System.Drawing.Size(135, 59);
+            this.ggbtn_TinhLuong.TabIndex = 11;
+            this.ggbtn_TinhLuong.Text = "Tính Lương";
+            this.ggbtn_TinhLuong.Click += new System.EventHandler(this.btn_TinhLuong_Click);
             // 
-            // btn_Dieuchinh
+            // ggbtn_Dieuchinh
             // 
-            this.btn_Dieuchinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_Dieuchinh.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Dieuchinh.BorderRadius = 20;
-            this.btn_Dieuchinh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Dieuchinh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Dieuchinh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_Dieuchinh.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_Dieuchinh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Dieuchinh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
-            this.btn_Dieuchinh.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
-            this.btn_Dieuchinh.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Dieuchinh.ForeColor = System.Drawing.Color.White;
-            this.btn_Dieuchinh.Location = new System.Drawing.Point(742, 216);
-            this.btn_Dieuchinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_Dieuchinh.Name = "btn_Dieuchinh";
-            this.btn_Dieuchinh.Size = new System.Drawing.Size(121, 59);
-            this.btn_Dieuchinh.TabIndex = 12;
-            this.btn_Dieuchinh.Text = "Điều chỉnh";
-            this.btn_Dieuchinh.Click += new System.EventHandler(this.btn_Dieuchinh_Click);
+            this.ggbtn_Dieuchinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ggbtn_Dieuchinh.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Dieuchinh.BorderRadius = 20;
+            this.ggbtn_Dieuchinh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Dieuchinh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Dieuchinh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Dieuchinh.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Dieuchinh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Dieuchinh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
+            this.ggbtn_Dieuchinh.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
+            this.ggbtn_Dieuchinh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Dieuchinh.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Dieuchinh.Location = new System.Drawing.Point(742, 216);
+            this.ggbtn_Dieuchinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ggbtn_Dieuchinh.Name = "ggbtn_Dieuchinh";
+            this.ggbtn_Dieuchinh.Size = new System.Drawing.Size(121, 59);
+            this.ggbtn_Dieuchinh.TabIndex = 12;
+            this.ggbtn_Dieuchinh.Text = "Điều chỉnh";
+            this.ggbtn_Dieuchinh.Click += new System.EventHandler(this.btn_Dieuchinh_Click);
             // 
             // metroSetLabel1
             // 
@@ -212,18 +212,18 @@
             this.guna2GradientPanel1.Location = new System.Drawing.Point(-29, 0);
             this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1269, 76);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1269, 79);
             this.guna2GradientPanel1.TabIndex = 15;
             this.guna2GradientPanel1.Tag = "Phòng Ban";
             // 
             // metroSetLabel3
             // 
             this.metroSetLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel3.Font = new System.Drawing.Font("UTM Alexander", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel3.IsDerivedStyle = true;
             this.metroSetLabel3.Location = new System.Drawing.Point(492, 17);
             this.metroSetLabel3.Name = "metroSetLabel3";
-            this.metroSetLabel3.Size = new System.Drawing.Size(295, 39);
+            this.metroSetLabel3.Size = new System.Drawing.Size(295, 56);
             this.metroSetLabel3.Style = MetroSet_UI.Enums.Style.Light;
             this.metroSetLabel3.StyleManager = null;
             this.metroSetLabel3.TabIndex = 0;
@@ -231,38 +231,38 @@
             this.metroSetLabel3.ThemeAuthor = "Narwin";
             this.metroSetLabel3.ThemeName = "MetroLite";
             // 
-            // guna2GradientButton1
+            // ggbtn_Huy
             // 
-            this.guna2GradientButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 20;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(534, 216);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(135, 59);
-            this.guna2GradientButton1.TabIndex = 16;
-            this.guna2GradientButton1.Text = "Hủy Bỏ ";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click_1);
+            this.ggbtn_Huy.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ggbtn_Huy.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Huy.BorderRadius = 20;
+            this.ggbtn_Huy.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Huy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Huy.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Huy.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Huy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Huy.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(50)))), ((int)(((byte)(74)))));
+            this.ggbtn_Huy.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(152)))), ((int)(((byte)(250)))));
+            this.ggbtn_Huy.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Huy.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Huy.Location = new System.Drawing.Point(534, 216);
+            this.ggbtn_Huy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ggbtn_Huy.Name = "ggbtn_Huy";
+            this.ggbtn_Huy.Size = new System.Drawing.Size(135, 59);
+            this.ggbtn_Huy.TabIndex = 16;
+            this.ggbtn_Huy.Text = "Hủy Bỏ ";
+            this.ggbtn_Huy.Click += new System.EventHandler(this.guna2GradientButton1_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Alexander", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(384, 324);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(437, 42);
+            this.label1.Size = new System.Drawing.Size(424, 50);
             this.label1.TabIndex = 17;
             this.label1.Text = "Bảng Lương Nhân Viên ";
             // 
@@ -276,22 +276,22 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1211, 686);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.ggbtn_Huy);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.metroSetLabel2);
             this.Controls.Add(this.metroSetLabel1);
-            this.Controls.Add(this.btn_Dieuchinh);
-            this.Controls.Add(this.btn_TinhLuong);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ggbtn_Dieuchinh);
+            this.Controls.Add(this.ggbtn_TinhLuong);
+            this.Controls.Add(this.dtpTG);
+            this.Controls.Add(this.dgvBangLuongNV);
+            this.Controls.Add(this.cmbPhongBan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "BangTinhLuong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BangTinhLuong";
             this.Load += new System.EventHandler(this.BangTinhLuong_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBangLuongNV)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -299,11 +299,11 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private Guna.UI2.WinForms.Guna2GradientButton btn_TinhLuong;
-        private Guna.UI2.WinForms.Guna2GradientButton btn_Dieuchinh;
+        private System.Windows.Forms.ComboBox cmbPhongBan;
+        private System.Windows.Forms.DataGridView dgvBangLuongNV;
+        private System.Windows.Forms.DateTimePicker dtpTG;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_TinhLuong;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Dieuchinh;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
@@ -314,7 +314,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Huy;
         private System.Windows.Forms.Label label1;
     }
 }

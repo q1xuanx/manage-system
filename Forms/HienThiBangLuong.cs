@@ -47,14 +47,14 @@ namespace ManageSystem.Forms
 
         private void DataBinding(List<BANGLUONG> bl)
         {
-            dataGridView1.Rows.Clear();
+            dgvChinhBangLuong.Rows.Clear();
             foreach (BANGLUONG b in bl)
             {
-                int idx = dataGridView1.Rows.Add();
-                dataGridView1.Rows[idx].Cells[0].Value = b.MABANGLUONG;
-                dataGridView1.Rows[idx].Cells[1].Value = b.HESOPHUCAP;
-                dataGridView1.Rows[idx].Cells[2].Value = b.HESOLUONG;
-                dataGridView1.Rows[idx].Cells[3].Value = b.LUONGCOBAN;
+                int idx = dgvChinhBangLuong.Rows.Add();
+                dgvChinhBangLuong.Rows[idx].Cells[0].Value = b.MABANGLUONG;
+                dgvChinhBangLuong.Rows[idx].Cells[1].Value = b.HESOPHUCAP;
+                dgvChinhBangLuong.Rows[idx].Cells[2].Value = b.HESOLUONG;
+                dgvChinhBangLuong.Rows[idx].Cells[3].Value = b.LUONGCOBAN;
             }
         }
 
@@ -69,10 +69,10 @@ namespace ManageSystem.Forms
             if (e.RowIndex >= 0)
             {
                 int idx = e.RowIndex;
-                tb_BL.Text = dataGridView1.Rows[idx].Cells[0].Value.ToString();
-                tb_PC.Text = dataGridView1.Rows[idx].Cells[1].Value.ToString();
-                tb_HSL.Text = dataGridView1.Rows[idx].Cells[2].Value.ToString();
-                tb_LCB.Text = dataGridView1.Rows[idx].Cells[3].Value.ToString();
+                tb_BL.Text = dgvChinhBangLuong.Rows[idx].Cells[0].Value.ToString();
+                tb_PC.Text = dgvChinhBangLuong.Rows[idx].Cells[1].Value.ToString();
+                tb_HSL.Text = dgvChinhBangLuong.Rows[idx].Cells[2].Value.ToString();
+                tb_LCB.Text = dgvChinhBangLuong.Rows[idx].Cells[3].Value.ToString();
             }else
             {
                 MessageBox.Show("Vui long chon dong co du lieu !");

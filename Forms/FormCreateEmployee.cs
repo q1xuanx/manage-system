@@ -83,19 +83,19 @@ namespace ManageSystem.Forms
         }
         private void BindGrid(List<NHANVIEN> list)
         {
-            dataGridView1.Rows.Clear();
+            dgvTTNV.Rows.Clear();
             bool gioiTinh = rbt_Nam.Checked == true ? true : false;
             foreach (var item in list)
             {
-                int index = dataGridView1.Rows.Add();
-                dataGridView1.Rows[index].Cells[0].Value = item.MANV;
-                dataGridView1.Rows[index].Cells[1].Value = item.TENNV;
-                dataGridView1.Rows[index].Cells[2].Value = (item.GIOITINH == 1 ? "Nam" : "Nu");
-                dataGridView1.Rows[index].Cells[3].Value = item.DIACHI;
-                dataGridView1.Rows[index].Cells[4].Value = item.TINHTRANG;
-                dataGridView1.Rows[index].Cells[5].Value = item.NGAYSINH;
-                dataGridView1.Rows[index].Cells[6].Value = item.PHONGBAN.TENPHONGBAN;
-                dataGridView1.Rows[index].Cells[7].Value = item.CHUCVU.TENCHUCVU;
+                int index = dgvTTNV.Rows.Add();
+                dgvTTNV.Rows[index].Cells[0].Value = item.MANV;
+                dgvTTNV.Rows[index].Cells[1].Value = item.TENNV;
+                dgvTTNV.Rows[index].Cells[2].Value = (item.GIOITINH == 1 ? "Nam" : "Nu");
+                dgvTTNV.Rows[index].Cells[3].Value = item.DIACHI;
+                dgvTTNV.Rows[index].Cells[4].Value = item.TINHTRANG;
+                dgvTTNV.Rows[index].Cells[5].Value = item.NGAYSINH;
+                dgvTTNV.Rows[index].Cells[6].Value = item.PHONGBAN.TENPHONGBAN;
+                dgvTTNV.Rows[index].Cells[7].Value = item.CHUCVU.TENCHUCVU;
                 if (string.IsNullOrEmpty(item.Avatar))
                 {
                     ptcAvatar.Image = null;
@@ -116,9 +116,9 @@ namespace ManageSystem.Forms
             try
             {
                 int index = e.RowIndex;
-                txt_ID.Text = dataGridView1.Rows[index].Cells[0].Value.ToString();
-                txt_Name.Text = dataGridView1.Rows[index].Cells[1].Value.ToString();
-                if ((string)(dataGridView1.Rows[index].Cells[2].Value) == "Nam")
+                txt_ID.Text = dgvTTNV.Rows[index].Cells[0].Value.ToString();
+                txt_Name.Text = dgvTTNV.Rows[index].Cells[1].Value.ToString();
+                if ((string)(dgvTTNV.Rows[index].Cells[2].Value) == "Nam")
                 {
                     rbt_Nam.Checked = true;
                 }
@@ -126,11 +126,11 @@ namespace ManageSystem.Forms
                 {
                     rbt_Nu.Checked = true;
                 }
-                txt_Anddress.Text = dataGridView1.Rows[index].Cells[3].Value.ToString();
-                cb_TinhTrang.Text = dataGridView1.Rows[index].Cells[4].Value.ToString();
-                cbb_BirthDay.Text = dataGridView1.Rows[index].Cells[5].Value.ToString();
-                cb_PhongBan.Text = dataGridView1.Rows[index].Cells[6].Value.ToString();
-                cb_ChucVu.Text = dataGridView1.Rows[index].Cells[7].Value.ToString();
+                txt_Anddress.Text = dgvTTNV.Rows[index].Cells[3].Value.ToString();
+                cb_TinhTrang.Text = dgvTTNV.Rows[index].Cells[4].Value.ToString();
+                cbb_BirthDay.Text = dgvTTNV.Rows[index].Cells[5].Value.ToString();
+                cb_PhongBan.Text = dgvTTNV.Rows[index].Cells[6].Value.ToString();
+                cb_ChucVu.Text = dgvTTNV.Rows[index].Cells[7].Value.ToString();
                 NHANVIEN check = model.NHANVIENs.FirstOrDefault(s => s.Avatar != null && s.MANV == txt_ID.Text);
                 if (check == null) 
                 {
@@ -157,8 +157,8 @@ namespace ManageSystem.Forms
             try
             {
                 string searchName = txt_findName.Text.ToLower();
-                dataGridView1.ClearSelection();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
+                dgvTTNV.ClearSelection();
+                foreach (DataGridViewRow row in dgvTTNV.Rows)
                 {
                     if (row.Cells["clm_TenNV"].Value != null && row.Cells["clm_TenNV"].Value.ToString().ToLower().Contains(searchName))
                     {

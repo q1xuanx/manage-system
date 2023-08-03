@@ -44,31 +44,31 @@ namespace ManageSystem.Forms
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int idx = e.RowIndex;
-            tb_Ma.Text = dataGridView1.Rows[idx].Cells[1].Value.ToString();
-            dtp.Text = DateTime.Parse(dataGridView1.Rows[idx].Cells[2].Value.ToString()).ToString();
-            rtb_nd.Text = dataGridView1.Rows[idx].Cells[3].Value.ToString();
-            cb_TinhTrang.Text = dataGridView1.Rows[idx].Cells[4].Value.ToString();
+            tb_Ma.Text = dgvDSDT.Rows[idx].Cells[1].Value.ToString();
+            dtpNgayLap.Text = DateTime.Parse(dgvDSDT.Rows[idx].Cells[2].Value.ToString()).ToString();
+            rtb_nd.Text = dgvDSDT.Rows[idx].Cells[3].Value.ToString();
+            cb_TinhTrang.Text = dgvDSDT.Rows[idx].Cells[4].Value.ToString();
         }
         private void BindData(List<QUANLYDON> list)
         {
-            dataGridView1.Rows.Clear();
+            dgvDSDT.Rows.Clear();
             foreach (QUANLYDON item in list)
             {
-                int idx = dataGridView1.Rows.Add();
-                dataGridView1.Rows[idx].Cells[0].Value = item.MADON;
-                dataGridView1.Rows[idx].Cells[1].Value = item.MANV;
-                dataGridView1.Rows[idx].Cells[2].Value = item.NgayLap;
-                dataGridView1.Rows[idx].Cells[3].Value = item.NOIDUNG;
+                int idx = dgvDSDT.Rows.Add();
+                dgvDSDT.Rows[idx].Cells[0].Value = item.MADON;
+                dgvDSDT.Rows[idx].Cells[1].Value = item.MANV;
+                dgvDSDT.Rows[idx].Cells[2].Value = item.NgayLap;
+                dgvDSDT.Rows[idx].Cells[3].Value = item.NOIDUNG;
                 int ?status = item.TRANGTHAI;
                 if (status == null)
                 {
-                    dataGridView1.Rows[idx].Cells[4].Value = "Chưa Duyệt";
+                    dgvDSDT.Rows[idx].Cells[4].Value = "Chưa Duyệt";
                 }else if (status == 1)
                 {
-                    dataGridView1.Rows[idx].Cells[4].Value = "Duyệt";
+                    dgvDSDT.Rows[idx].Cells[4].Value = "Duyệt";
                 }else
                 {
-                    dataGridView1.Rows[idx].Cells[4].Value = "Không Duyệt";
+                    dgvDSDT.Rows[idx].Cells[4].Value = "Không Duyệt";
                 }
             }
         }
@@ -89,7 +89,7 @@ namespace ManageSystem.Forms
             tb_Ma.Text = null;
             rtb_nd.Text = null;
             cb_TinhTrang.SelectedIndex = 0;
-            dtp.Text = DateTime.Now.ToString();
+            dtpNgayLap.Text = DateTime.Now.ToString();
         }
     }
 }

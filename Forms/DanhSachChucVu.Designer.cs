@@ -32,16 +32,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tb_macv = new System.Windows.Forms.TextBox();
             this.tb_tencv = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvDSCV = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTim = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ggbtn_CapNhat = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Huy = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Xoa = new Guna.UI2.WinForms.Guna2GradientButton();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSCV)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -84,41 +84,27 @@
             this.tb_tencv.Size = new System.Drawing.Size(320, 22);
             this.tb_tencv.TabIndex = 4;
             // 
-            // button1
+            // dgvDSCV
             // 
-            this.button1.BackColor = System.Drawing.Color.LimeGreen;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(202, 282);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 44);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Cập Nhật";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowDrop = true;
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvDSCV.AllowDrop = true;
+            this.dgvDSCV.AllowUserToAddRows = false;
+            this.dgvDSCV.AllowUserToOrderColumns = true;
+            this.dgvDSCV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDSCV.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDSCV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSCV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dataGridView1.Location = new System.Drawing.Point(68, 409);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(777, 166);
-            this.dataGridView1.TabIndex = 6;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dgvDSCV.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.dgvDSCV.Location = new System.Drawing.Point(68, 409);
+            this.dgvDSCV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvDSCV.Name = "dgvDSCV";
+            this.dgvDSCV.ReadOnly = true;
+            this.dgvDSCV.RowHeadersWidth = 62;
+            this.dgvDSCV.RowTemplate.Height = 28;
+            this.dgvDSCV.Size = new System.Drawing.Size(777, 166);
+            this.dgvDSCV.TabIndex = 6;
+            this.dgvDSCV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Column1
             // 
@@ -146,55 +132,84 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Tìm Kiếm";
             // 
-            // textBox3
+            // txtTim
             // 
-            this.textBox3.Location = new System.Drawing.Point(624, 374);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 22);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtTim.Location = new System.Drawing.Point(624, 374);
+            this.txtTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTim.Name = "txtTim";
+            this.txtTim.Size = new System.Drawing.Size(200, 22);
+            this.txtTim.TabIndex = 8;
+            this.txtTim.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("UTM Alexander", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(916, 121);
+            this.label4.Size = new System.Drawing.Size(916, 119);
             this.label4.TabIndex = 0;
             this.label4.Text = "Danh Sách Chức Vụ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // ggbtn_CapNhat
             // 
-            this.button2.BackColor = System.Drawing.Color.LightCoral;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(372, 282);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 44);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Hủy Bỏ ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.ggbtn_CapNhat.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_CapNhat.BorderRadius = 20;
+            this.ggbtn_CapNhat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_CapNhat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_CapNhat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_CapNhat.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_CapNhat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_CapNhat.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_CapNhat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_CapNhat.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_CapNhat.Location = new System.Drawing.Point(194, 282);
+            this.ggbtn_CapNhat.Name = "ggbtn_CapNhat";
+            this.ggbtn_CapNhat.Size = new System.Drawing.Size(121, 43);
+            this.ggbtn_CapNhat.TabIndex = 50;
+            this.ggbtn_CapNhat.Text = "Cập Nhật";
+            this.ggbtn_CapNhat.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button3
+            // ggbtn_Huy
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(552, 282);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 44);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.ggbtn_Huy.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Huy.BorderRadius = 20;
+            this.ggbtn_Huy.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Huy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Huy.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Huy.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Huy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Huy.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_Huy.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Huy.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Huy.Location = new System.Drawing.Point(372, 282);
+            this.ggbtn_Huy.Name = "ggbtn_Huy";
+            this.ggbtn_Huy.Size = new System.Drawing.Size(121, 43);
+            this.ggbtn_Huy.TabIndex = 50;
+            this.ggbtn_Huy.Text = "Huỷ Bỏ";
+            this.ggbtn_Huy.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ggbtn_Xoa
+            // 
+            this.ggbtn_Xoa.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Xoa.BorderRadius = 20;
+            this.ggbtn_Xoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Xoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Xoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Xoa.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Xoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Xoa.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_Xoa.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Xoa.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Xoa.Location = new System.Drawing.Point(552, 282);
+            this.ggbtn_Xoa.Name = "ggbtn_Xoa";
+            this.ggbtn_Xoa.Size = new System.Drawing.Size(121, 43);
+            this.ggbtn_Xoa.TabIndex = 50;
+            this.ggbtn_Xoa.Text = "Xoá";
+            this.ggbtn_Xoa.Click += new System.EventHandler(this.button3_Click);
             // 
             // DanhSachChucVu
             // 
@@ -204,13 +219,13 @@
             this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(916, 598);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ggbtn_Xoa);
+            this.Controls.Add(this.ggbtn_Huy);
+            this.Controls.Add(this.ggbtn_CapNhat);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtTim);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dgvDSCV);
             this.Controls.Add(this.tb_tencv);
             this.Controls.Add(this.tb_macv);
             this.Controls.Add(this.label2);
@@ -221,7 +236,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DanhSachChucVu";
             this.Load += new System.EventHandler(this.DanhSachChucVu_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSCV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,14 +247,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tb_macv;
         private System.Windows.Forms.TextBox tb_tencv;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvDSCV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTim;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_CapNhat;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Huy;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Xoa;
     }
 }

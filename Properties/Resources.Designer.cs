@@ -473,6 +473,16 @@ namespace ManageSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap returnBLUE {
+            get {
+                object obj = ResourceManager.GetObject("returnBLUE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Skateboarding {
             get {
                 object obj = ResourceManager.GetObject("Skateboarding", resourceCulture);

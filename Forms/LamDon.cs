@@ -26,13 +26,13 @@ namespace ManageSystem.Forms
 
         private void BindData(List<QUANLYDON> qls)
         {
-            dataGridView1.Rows.Clear();
+            dgvDSDaNop.Rows.Clear();
             foreach(QUANLYDON qld in qls)
             {
-                int idx = dataGridView1.Rows.Add();
-                dataGridView1.Rows[idx].Cells[0].Value = qld.MANV;
-                dataGridView1.Rows[idx].Cells[1].Value = qld.NgayLap;
-                dataGridView1.Rows[idx].Cells[2].Value = qld.NOIDUNG;
+                int idx = dgvDSDaNop.Rows.Add();
+                dgvDSDaNop.Rows[idx].Cells[0].Value = qld.MANV;
+                dgvDSDaNop.Rows[idx].Cells[1].Value = qld.NgayLap;
+                dgvDSDaNop.Rows[idx].Cells[2].Value = qld.NOIDUNG;
                 string show = "Chưa Duyệt";
                 if (qld.TRANGTHAI == 1)
                 {
@@ -41,7 +41,7 @@ namespace ManageSystem.Forms
                 {
                     show = "Không Duyệt";
                 }
-                dataGridView1.Rows[idx].Cells[3].Value = show;
+                dgvDSDaNop.Rows[idx].Cells[3].Value = show;
             }
         }
 
@@ -58,7 +58,7 @@ namespace ManageSystem.Forms
             {
                 MADON = Utils.generateUUID(),
                 MANV = NhanVienMenu.currNhanVien,
-                NgayLap = dateTimePicker1.Value.Date,
+                NgayLap = dtpNgayNop.Value.Date,
                 NOIDUNG = rtb_nd.Text,
             };
             db.QUANLYDONs.Add(qld);
@@ -70,9 +70,9 @@ namespace ManageSystem.Forms
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            tb_manv.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            dateTimePicker1.Text = DateTime.Parse(dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString()).ToString();
-            rtb_nd.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            tb_manv.Text = dgvDSDaNop.Rows[e.RowIndex].Cells[0].Value.ToString();
+            dtpNgayNop.Text = DateTime.Parse(dgvDSDaNop.Rows[e.RowIndex].Cells[1].Value.ToString()).ToString();
+            rtb_nd.Text = dgvDSDaNop.Rows[e.RowIndex].Cells[2].Value.ToString();
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)

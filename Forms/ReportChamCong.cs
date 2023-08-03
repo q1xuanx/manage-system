@@ -21,16 +21,16 @@ namespace ManageSystem.Forms
 
         private void ReportChamCong_Load(object sender, EventArgs e)
         {
-            var ls = db.CHITIETBANGCHAMCONGs.Where(s => s.NGAYCHAMCONG == dateTimePicker1.Value.Date).ToList();
+            var ls = db.CHITIETBANGCHAMCONGs.Where(s => s.NGAYCHAMCONG == dtpNgayBC.Value.Date).ToList();
             cHITIETBANGCHAMCONGBindingSource.DataSource = ls;
-            this.reportViewer1.RefreshReport();
+            this.rptCTCC.RefreshReport();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var ls = db.CHITIETBANGCHAMCONGs.Where(s => s.NGAYCHAMCONG == dateTimePicker1.Value.Date).ToList();
+            var ls = db.CHITIETBANGCHAMCONGs.Where(s => s.NGAYCHAMCONG == dtpNgayBC.Value.Date).ToList();
             cHITIETBANGCHAMCONGBindingSource.DataSource = ls;
-            this.reportViewer1.RefreshReport();
+            this.rptCTCC.RefreshReport();
         }
     }
 }

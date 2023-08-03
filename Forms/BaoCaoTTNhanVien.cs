@@ -22,9 +22,9 @@ namespace ManageSystem.Forms
         {
             try
             {
-                List<NHANVIEN> ls = db.NHANVIENs.Where(s => s.MAPHONGBAN == comboBox1.SelectedValue.ToString()).ToList();
+                List<NHANVIEN> ls = db.NHANVIENs.Where(s => s.MAPHONGBAN == cmbPhongBan.SelectedValue.ToString()).ToList();
                 nHANVIENBindingSource.DataSource = ls;
-                this.reportViewer1.RefreshReport();
+                this.rpvTTSV.RefreshReport();
             }
             catch(Exception ex)
             {
@@ -35,12 +35,12 @@ namespace ManageSystem.Forms
         public void BaoCaoTTNhanVien_Load(object sender, EventArgs e)
         {
             List<PHONGBAN> pb = db.PHONGBANs.ToList();
-            comboBox1.DataSource = pb;
-            comboBox1.DisplayMember = "TENPHONGBAN";
-            comboBox1.ValueMember = "MAPHONGBAN";
-            List<NHANVIEN> ls = db.NHANVIENs.Where(s => s.MAPHONGBAN == comboBox1.SelectedValue.ToString()).ToList();
+            cmbPhongBan.DataSource = pb;
+            cmbPhongBan.DisplayMember = "TENPHONGBAN";
+            cmbPhongBan.ValueMember = "MAPHONGBAN";
+            List<NHANVIEN> ls = db.NHANVIENs.Where(s => s.MAPHONGBAN == cmbPhongBan.SelectedValue.ToString()).ToList();
             nHANVIENBindingSource.DataSource = ls;
-            this.reportViewer1.RefreshReport();
+            this.rpvTTSV.RefreshReport();
         }
     }
 }

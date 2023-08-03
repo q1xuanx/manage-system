@@ -30,22 +30,22 @@ namespace ManageSystem.Forms
         }
         private void BindGrid(List<PHONGBAN> ls)
         {
-            dataGridView1.Rows.Clear();
+            dgvDSPB.Rows.Clear();
             foreach(PHONGBAN p in ls)
             {
-                int idx = dataGridView1.Rows.Add();
-                dataGridView1.Rows[idx].Cells[0].Value = p.MAPHONGBAN;
-                dataGridView1.Rows[idx].Cells[1].Value = p.TENPHONGBAN;
-                dataGridView1.Rows[idx].Cells[2].Value = (p.TRANGTHAI == 1 ? "Hoạt Động" : "Đã Ngưng");
+                int idx = dgvDSPB.Rows.Add();
+                dgvDSPB.Rows[idx].Cells[0].Value = p.MAPHONGBAN;
+                dgvDSPB.Rows[idx].Cells[1].Value = p.TENPHONGBAN;
+                dgvDSPB.Rows[idx].Cells[2].Value = (p.TRANGTHAI == 1 ? "Hoạt Động" : "Đã Ngưng");
             }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int idx = e.RowIndex;
-            cb_MaPhong.Text = dataGridView1.Rows[idx].Cells[0].Value.ToString();
-            cb_TenPhong.Text = dataGridView1.Rows[idx].Cells[1].Value.ToString();
-            cb_TinhTrang.Text = dataGridView1.Rows[idx].Cells[2].Value.ToString();
+            cb_MaPhong.Text = dgvDSPB.Rows[idx].Cells[0].Value.ToString();
+            cb_TenPhong.Text = dgvDSPB.Rows[idx].Cells[1].Value.ToString();
+            cb_TinhTrang.Text = dgvDSPB.Rows[idx].Cells[2].Value.ToString();
         }
 
         private void btn_Them_Click(object sender, EventArgs e)

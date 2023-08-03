@@ -58,20 +58,20 @@ namespace ManageSystem.Forms
         }
         private void BindData(List<CHUCVU> ch)
         {
-            dataGridView1.Rows.Clear(); 
+            dgvDSCV.Rows.Clear(); 
             foreach(CHUCVU cv in ch)
             {
-                int id = dataGridView1.Rows.Add();
-                dataGridView1.Rows[id].Cells[0].Value = cv.MACHUCVU;
-                dataGridView1.Rows[id].Cells[1].Value = cv.TENCHUCVU;
+                int id = dgvDSCV.Rows.Add();
+                dgvDSCV.Rows[id].Cells[0].Value = cv.MACHUCVU;
+                dgvDSCV.Rows[id].Cells[1].Value = cv.TENCHUCVU;
             }
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            string findID = textBox3.Text.ToLower();
-            dataGridView1.ClearSelection();
-            foreach(DataGridViewRow row in dataGridView1.Rows)
+            string findID = txtTim.Text.ToLower();
+            dgvDSCV.ClearSelection();
+            foreach(DataGridViewRow row in dgvDSCV.Rows)
             {
                 if (row.Cells[0].Value != null && row.Cells[0].Value.ToString().ToLower().Contains(findID))
                 {
@@ -85,8 +85,8 @@ namespace ManageSystem.Forms
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            tb_macv.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            tb_tencv.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            tb_macv.Text = dgvDSCV.Rows[e.RowIndex].Cells[0].Value.ToString();
+            tb_tencv.Text = dgvDSCV.Rows[e.RowIndex].Cells[1].Value.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -38,7 +38,7 @@
             this.tb_username = new System.Windows.Forms.TextBox();
             this.btn_Thaydoi = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label8 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Return = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -144,7 +144,7 @@
             this.btn_Thaydoi.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
             this.btn_Thaydoi.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Thaydoi.ForeColor = System.Drawing.Color.White;
-            this.btn_Thaydoi.Location = new System.Drawing.Point(223, 351);
+            this.btn_Thaydoi.Location = new System.Drawing.Point(288, 351);
             this.btn_Thaydoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Thaydoi.Name = "btn_Thaydoi";
             this.btn_Thaydoi.Size = new System.Drawing.Size(101, 46);
@@ -157,27 +157,27 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("UTM Alexander", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(615, 71);
+            this.label8.Size = new System.Drawing.Size(615, 99);
             this.label8.TabIndex = 21;
             this.label8.Text = "Thay Đổi Mật Khẩu";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btn_Return
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Image = global::ManageSystem.Properties.Resources.icons8_return_40;
-            this.button1.Location = new System.Drawing.Point(396, 350);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 47);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Return.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_Return.Image = global::ManageSystem.Properties.Resources.icons8_return_40;
+            this.btn_Return.Location = new System.Drawing.Point(472, 351);
+            this.btn_Return.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Return.Name = "btn_Return";
+            this.btn_Return.Size = new System.Drawing.Size(68, 47);
+            this.btn_Return.TabIndex = 10;
+            this.btn_Return.UseVisualStyleBackColor = true;
+            this.btn_Return.Click += new System.EventHandler(this.button1_Click);
             // 
             // HienThiThongTin
             // 
@@ -191,7 +191,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btn_Thaydoi);
             this.Controls.Add(this.tb_username);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Return);
             this.Controls.Add(this.tb_confirmnewpass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tb_passnew);
@@ -216,7 +216,7 @@
         private System.Windows.Forms.TextBox tb_passnew;
         private System.Windows.Forms.TextBox tb_confirmnewpass;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Return;
         private System.Windows.Forms.TextBox tb_username;
         private Guna.UI2.WinForms.Guna2GradientButton btn_Thaydoi;
         private System.Windows.Forms.Label label8;

@@ -34,12 +34,12 @@ namespace ManageSystem.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textBox1.Text))
+            if (string.IsNullOrEmpty(txtMNV.Text))
             {
                 MessageBox.Show("Vui lòng nhập mã nhân viên !");
                 return;
             }
-            var find = db.ACCOUNTs.FirstOrDefault(s => s.NHANVIEN.MANV == textBox1.Text && s.ROLE == 1);
+            var find = db.ACCOUNTs.FirstOrDefault(s => s.NHANVIEN.MANV == txtMNV.Text && s.ROLE == 1);
             if (find != null)
             {
                 videoCapture = new Capture();
@@ -80,7 +80,7 @@ namespace ManageSystem.Forms
                             {
                                 for (int i = 0; i < 50; i++)
                                 {
-                                    resultImg.Resize(200, 200, Inter.Cubic).Save(path + @"\" + textBox1.Text + "_" + DateTime.Now.ToString("dd-mm-yyyy-hh-mm-ss") + ".jpg");
+                                    resultImg.Resize(200, 200, Inter.Cubic).Save(path + @"\" + txtMNV.Text + "_" + DateTime.Now.ToString("dd-mm-yyyy-hh-mm-ss") + ".jpg");
                                     Thread.Sleep(1000);
                                 }
                                 MessageBox.Show("Bạn có thể tắt ứng dụng hình đã được lưu thành công !");

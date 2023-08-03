@@ -31,11 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lable_name = new System.Windows.Forms.Label();
             this.panel_show = new System.Windows.Forms.Panel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_DangXuat = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_ChamCong = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Don = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ggbtn_Main = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,10 +45,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 19);
+            this.label1.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(183, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 25);
+            this.label1.Size = new System.Drawing.Size(109, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin chào: ";
             // 
@@ -56,10 +57,11 @@
             // 
             this.lable_name.AutoSize = true;
             this.lable_name.BackColor = System.Drawing.Color.Transparent;
-            this.lable_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lable_name.Location = new System.Drawing.Point(292, 19);
+            this.lable_name.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lable_name.ForeColor = System.Drawing.Color.White;
+            this.lable_name.Location = new System.Drawing.Point(298, 17);
             this.lable_name.Name = "lable_name";
-            this.lable_name.Size = new System.Drawing.Size(70, 25);
+            this.lable_name.Size = new System.Drawing.Size(71, 27);
             this.lable_name.TabIndex = 1;
             this.lable_name.Text = "label2";
             // 
@@ -73,75 +75,75 @@
             this.panel_show.Size = new System.Drawing.Size(1000, 551);
             this.panel_show.TabIndex = 3;
             // 
-            // guna2GradientButton1
+            // ggbtn_DangXuat
             // 
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 20;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.guna2GradientButton1.Image = global::ManageSystem.Properties.Resources.icons8_logout_48;
-            this.guna2GradientButton1.ImageSize = new System.Drawing.Size(31, 31);
-            this.guna2GradientButton1.Location = new System.Drawing.Point(24, 381);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(125, 42);
-            this.guna2GradientButton1.TabIndex = 4;
-            this.guna2GradientButton1.Text = "Đăng Xuất";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
+            this.ggbtn_DangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_DangXuat.BorderRadius = 20;
+            this.ggbtn_DangXuat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_DangXuat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_DangXuat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_DangXuat.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_DangXuat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_DangXuat.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_DangXuat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_DangXuat.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.ggbtn_DangXuat.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.ggbtn_DangXuat.Image = global::ManageSystem.Properties.Resources.icons8_logout_48;
+            this.ggbtn_DangXuat.ImageSize = new System.Drawing.Size(31, 31);
+            this.ggbtn_DangXuat.Location = new System.Drawing.Point(24, 381);
+            this.ggbtn_DangXuat.Name = "ggbtn_DangXuat";
+            this.ggbtn_DangXuat.Size = new System.Drawing.Size(125, 42);
+            this.ggbtn_DangXuat.TabIndex = 4;
+            this.ggbtn_DangXuat.Text = "Đăng Xuất";
+            this.ggbtn_DangXuat.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
-            // guna2GradientButton2
+            // ggbtn_ChamCong
             // 
-            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.BorderRadius = 20;
-            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(12, 118);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(153, 60);
-            this.guna2GradientButton2.TabIndex = 2;
-            this.guna2GradientButton2.Text = "Chấm Công";
-            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
+            this.ggbtn_ChamCong.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_ChamCong.BorderRadius = 20;
+            this.ggbtn_ChamCong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_ChamCong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_ChamCong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_ChamCong.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_ChamCong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_ChamCong.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_ChamCong.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_ChamCong.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_ChamCong.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.ggbtn_ChamCong.Location = new System.Drawing.Point(12, 118);
+            this.ggbtn_ChamCong.Name = "ggbtn_ChamCong";
+            this.ggbtn_ChamCong.Size = new System.Drawing.Size(153, 60);
+            this.ggbtn_ChamCong.TabIndex = 2;
+            this.ggbtn_ChamCong.Text = "Chấm Công";
+            this.ggbtn_ChamCong.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
-            // guna2GradientButton3
+            // ggbtn_Don
             // 
-            this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.BorderRadius = 20;
-            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(12, 206);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(153, 60);
-            this.guna2GradientButton3.TabIndex = 2;
-            this.guna2GradientButton3.Text = "Đơn";
-            this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
+            this.ggbtn_Don.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Don.BorderRadius = 20;
+            this.ggbtn_Don.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Don.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Don.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Don.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Don.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Don.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_Don.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Don.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Don.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.ggbtn_Don.Location = new System.Drawing.Point(12, 206);
+            this.ggbtn_Don.Name = "ggbtn_Don";
+            this.ggbtn_Don.Size = new System.Drawing.Size(153, 60);
+            this.ggbtn_Don.TabIndex = 2;
+            this.ggbtn_Don.Text = "Đơn";
+            this.ggbtn_Don.Click += new System.EventHandler(this.guna2GradientButton3_Click);
             // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton4);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton1);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton3);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton2);
+            this.guna2GradientPanel1.Controls.Add(this.ggbtn_Main);
+            this.guna2GradientPanel1.Controls.Add(this.ggbtn_DangXuat);
+            this.guna2GradientPanel1.Controls.Add(this.ggbtn_Don);
+            this.guna2GradientPanel1.Controls.Add(this.ggbtn_ChamCong);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(3, 143);
@@ -149,25 +151,25 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(174, 454);
             this.guna2GradientPanel1.TabIndex = 5;
             // 
-            // guna2GradientButton4
+            // ggbtn_Main
             // 
-            this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.BorderRadius = 20;
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(12, 26);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(153, 60);
-            this.guna2GradientButton4.TabIndex = 5;
-            this.guna2GradientButton4.Text = "Trang Chính";
-            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
+            this.ggbtn_Main.BackColor = System.Drawing.Color.Transparent;
+            this.ggbtn_Main.BorderRadius = 20;
+            this.ggbtn_Main.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Main.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ggbtn_Main.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Main.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ggbtn_Main.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ggbtn_Main.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(52)))), ((int)(((byte)(77)))));
+            this.ggbtn_Main.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ggbtn_Main.ForeColor = System.Drawing.Color.White;
+            this.ggbtn_Main.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.ggbtn_Main.Location = new System.Drawing.Point(12, 26);
+            this.ggbtn_Main.Name = "ggbtn_Main";
+            this.ggbtn_Main.Size = new System.Drawing.Size(153, 60);
+            this.ggbtn_Main.TabIndex = 5;
+            this.ggbtn_Main.Text = "Trang Chính";
+            this.ggbtn_Main.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // pictureBox1
             // 
@@ -188,8 +190,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ManageSystem.Properties.Resources.BG1;
             this.ClientSize = new System.Drawing.Size(1182, 598);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.panel_show);
             this.Controls.Add(this.lable_name);
@@ -211,11 +213,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lable_name;
         private System.Windows.Forms.Panel panel_show;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_DangXuat;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Don;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_ChamCong;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton ggbtn_Main;
     }
 }

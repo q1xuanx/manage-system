@@ -40,11 +40,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = System.Drawing.Color.Transparent;
-            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label2.Font = new System.Drawing.Font("UTM Alexander", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            label2.Location = new System.Drawing.Point(419, 163);
+            label2.Location = new System.Drawing.Point(430, 206);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(402, 46);
+            label2.Size = new System.Drawing.Size(365, 54);
             label2.TabIndex = 3;
             label2.Text = "QUẢN LÝ NHÂN SỰ";
             // 
@@ -52,9 +52,9 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.CausesValidation = false;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Alexander", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(453, 84);
+            this.label1.Location = new System.Drawing.Point(454, 136);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(341, 55);
             this.label1.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::ManageSystem.Properties.Resources.Whrite_Tím_Hiện_đại_Logo_Công_nghệ___Trò_chơi;
-            this.pictureBox1.Location = new System.Drawing.Point(356, 255);
+            this.pictureBox1.Location = new System.Drawing.Point(361, 206);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(515, 367);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

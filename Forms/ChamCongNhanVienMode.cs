@@ -24,14 +24,14 @@ namespace ManageSystem.Forms
 
         private void BindData(List<CHITIETBANGCHAMCONG> ls)
         {
-            dataGridView1.Rows.Clear();
+            dgvChamCong.Rows.Clear();
             foreach (CHITIETBANGCHAMCONG ct in ls)
             {
-                int idx = dataGridView1.Rows.Add();
-                dataGridView1.Rows[idx].Cells[0].Value = ct.MANV;
-                dataGridView1.Rows[idx].Cells[1].Value = ct.NGAYCHAMCONG.Date;
-                dataGridView1.Rows[idx].Cells[2].Value = ct.GIOVAO;
-                dataGridView1.Rows[idx].Cells[3].Value = ct.GIORA;
+                int idx = dgvChamCong.Rows.Add();
+                dgvChamCong.Rows[idx].Cells[0].Value = ct.MANV;
+                dgvChamCong.Rows[idx].Cells[1].Value = ct.NGAYCHAMCONG.Date;
+                dgvChamCong.Rows[idx].Cells[2].Value = ct.GIOVAO;
+                dgvChamCong.Rows[idx].Cells[3].Value = ct.GIORA;
             }
         }
 
