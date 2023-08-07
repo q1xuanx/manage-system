@@ -144,7 +144,7 @@ namespace ManageSystem.Forms
                 {
                     MADON = Utils.generateUUID(),
                     MANV = NhanVienMenu.currNhanVien,
-                    NgayLap = dateTimePicker1.Value.Date,
+                    NgayLap =dtpNgayNop.Value.Date,
                     NOIDUNG = rtb_nd.Text,
                 };
                 db.QUANLYDONs.Add(qld);
