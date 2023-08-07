@@ -19,10 +19,7 @@ namespace ManageSystem.Forms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-        }
+    
 
         private void BindData(List<QUANLYDON> qls)
         {
@@ -51,21 +48,114 @@ namespace ManageSystem.Forms
             var qld = db.QUANLYDONs.Where(s => s.MANV ==  tb_manv.Text).ToList();
             BindData(qld);
         }
+        bool check(string richTextBox)
+        {
+            Queue<string> q = new Queue<string>();
+            string temp = "";
+            int idx = 0;
+            for (int i = 0; i < richTextBox.Length; i++)
+            {
+                char s1 = richTextBox[i];
+                if (s1 == ' ')
+                {
+                    for (int j = i + 1; j < richTextBox.Length; j++)
+                    {
+                        char s2 = richTextBox[j];
+                        if (s1 == s2)
+                        {
+                            idx++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                }
+                if (idx != 0)
+                {
+                    //MessageBox.Show("IDX: " + idx.ToString());
+                    richTextBox = richTextBox.Remove(i, idx);
+                    idx = 0;
+                }
+            }
+            //MessageBox.Show(richTextBox);
+            for (int i = 0; i < richTextBox.Length; i++)
+            {
+                char s = richTextBox[i];
+                if (q.Count == 0)
+                {
+                    if (s != ' ')
+                    {
+                        temp += s;
+                    }
+                    else
+                    {
+                        q.Enqueue(temp);
+                        temp = "";
+                    }
+                }
+                else
+                {
+                    if (s != ' ')
+                    {
+                        temp += s;
+                    }
+                    else
+                    {
+                        if (q.Peek() != temp)
+                        {
+                            q.Dequeue();
+                            q.Enqueue(temp);
+                            temp = "";
+                        }
+                        else
+                        {
+                            if (q.Count == 2)
+                            {
+                                return false;
+                            }
+                            else
+                            {
+                                q.Enqueue(temp);
+                                temp = "";
+                            }
+                        }
+                    }
+                }
 
+            }
+            if (q.Peek() == temp && q.Count >= 2)
+            {
+                return false;
+            }
+            return true;
+        }
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            QUANLYDON qld = new QUANLYDON()
+            try
             {
-                MADON = Utils.generateUUID(),
-                MANV = NhanVienMenu.currNhanVien,
-                NgayLap = dtpNgayNop.Value.Date,
-                NOIDUNG = rtb_nd.Text,
-            };
-            db.QUANLYDONs.Add(qld);
-            db.SaveChanges();
-            MessageBox.Show("Nộp Đơn Thành Công");
-            var qldon = db.QUANLYDONs.Where(s => s.MANV == tb_manv.Text).ToList();
-            BindData(qldon);
+                if (!(check(rtb_nd.Text)))
+                {
+                    MessageBox.Show("Bạn đang cố ý spam !");
+                    rtb_nd.Text = null;
+                    return;
+                }
+                QUANLYDON qld = new QUANLYDON()
+                {
+                    MADON = Utils.generateUUID(),
+                    MANV = NhanVienMenu.currNhanVien,
+                    NgayLap = dateTimePicker1.Value.Date,
+                    NOIDUNG = rtb_nd.Text,
+                };
+                db.QUANLYDONs.Add(qld);
+                db.SaveChanges();
+                MessageBox.Show("Nộp Đơn Thành Công");
+                var qldon = db.QUANLYDONs.Where(s => s.MANV == tb_manv.Text).ToList();
+                BindData(qldon);
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
