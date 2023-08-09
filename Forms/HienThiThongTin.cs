@@ -42,7 +42,7 @@ namespace ManageSystem.Forms
                 {
                     throw new Exception("Vui lòng nhập đầy đủ thông tin");
                 }
-                var check = db.ACCOUNTs.FirstOrDefault(s => s.PASSWORD == tb_pass.Text);
+                var check = db.ACCOUNTs.FirstOrDefault(s => s.USERNAME == tb_username.Text);
                 if (check != null)
                 {
                     if (tb_passnew.Text != tb_confirmnewpass.Text)
@@ -51,7 +51,12 @@ namespace ManageSystem.Forms
                     }
                     else
                     {
-                        check.PASSWORD = tb_pass.Text;
+                        check.USERNAME = check.USERNAME;
+                        check.IDACCOUNT = check.IDACCOUNT;
+                        check.ROLE = check.ROLE;
+                        check.TRANGTHAI = check.TRANGTHAI;
+                        check.MANV = check.MANV;
+                        check.PASSWORD = Utils.HashPassword(tb_passnew.Text);
                         db.SaveChanges();
                         MessageBox.Show("Thay đổi mật khẩu thành công ");
                     }
