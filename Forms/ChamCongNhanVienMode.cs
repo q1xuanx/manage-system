@@ -67,7 +67,8 @@ namespace ManageSystem.Forms
                 }
                 else
                 {
-                    if (check.NGAYCHAMCONG != DTP_ChamCong.Value.Date)
+                    var find = db.CHITIETBANGCHAMCONGs.FirstOrDefault(s => s.MANV == check.MANV && s.NGAYCHAMCONG == DTP_ChamCong.Value.Date);
+                    if (find == null)
                     {
                         CHITIETBANGCHAMCONG ct = new CHITIETBANGCHAMCONG()
                         {
@@ -82,16 +83,12 @@ namespace ManageSystem.Forms
                     }
                     else
                     {
-                        if (check.GIORA == null)
+                        if (find.GIORA == null)
                         {
-                            CHITIETBANGCHAMCONG ct = new CHITIETBANGCHAMCONG()
-                            {
-                                MANV = NhanVienMenu.currNhanVien,
-                                NGAYCHAMCONG = DateTime.ParseExact(DTP_ChamCong.Value.ToString("dd/MM/yyyy"), "dd/MM/yyyy", CultureInfo.InvariantCulture),
-                                GIOVAO = check.GIOVAO,
-                                GIORA = dateTimePicker1.Value.TimeOfDay,
-                            };
-                            db.CHITIETBANGCHAMCONGs.AddOrUpdate(ct);
+                            find.MANV = NhanVienMenu.currNhanVien;
+                            find.NGAYCHAMCONG = find.NGAYCHAMCONG;
+                            find.GIOVAO = find.GIOVAO;
+                            find.GIORA = dateTimePicker1.Value.TimeOfDay;
                             db.SaveChanges();
                             List<CHITIETBANGCHAMCONG> ls = db.CHITIETBANGCHAMCONGs.Where(s => s.MANV == NhanVienMenu.currNhanVien).ToList();
                             BindData(ls);
@@ -105,7 +102,7 @@ namespace ManageSystem.Forms
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
