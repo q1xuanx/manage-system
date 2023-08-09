@@ -47,11 +47,6 @@ namespace ManageSystem.Forms
             cb_TenPhong.Text = dgvDSPB.Rows[idx].Cells[1].Value.ToString();
             cb_TinhTrang.Text = dgvDSPB.Rows[idx].Cells[2].Value.ToString();
         }
-
-        private void btn_Them_Click(object sender, EventArgs e)
-        {
-           
-        }
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
             var ask = MessageBox.Show("Bạn có muốn xóa?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
