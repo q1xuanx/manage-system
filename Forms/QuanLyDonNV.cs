@@ -22,7 +22,7 @@ namespace ManageSystem.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            QUANLYDON find = db.QUANLYDONs.FirstOrDefault(s => tb_Ma.Text == s.MANV);
+            QUANLYDON find = db.QUANLYDONs.FirstOrDefault(s => tb_Ma.Text == s.MANV);   //FirstOrDefault: trả về phần tử đầu tiên của một tập hợp hoặc một giá trị mặc định nếu tập hợp không có phần tử nào.
             int status = 0;
             if (cb_TinhTrang.Text == "Duyệt") status = 1;
             else if (cb_TinhTrang.Text == "Không Duyệt") status = 2;
@@ -34,16 +34,16 @@ namespace ManageSystem.Forms
                 NOIDUNG = rtb_nd.Text,
                 TRANGTHAI = status
             };
-            db.QUANLYDONs.AddOrUpdate(qld);
+            db.QUANLYDONs.AddOrUpdate(qld); //AddOrUpdate: Thêm hoặc cập nhật một thực thể vào cơ sở dữ liệu.
             db.SaveChanges();
-            var findd = db.QUANLYDONs.Where(s => s.TRANGTHAI == null).ToList();
-            BindData(findd);
+            var findd = db.QUANLYDONs.Where(s => s.TRANGTHAI == null).ToList(); //ToList: Tạo một danh sách mới từ một đối tượng IEnumerable.
+            BindData(findd); //BindData: Gắn dữ liệu vào DataGridView.
             MessageBox.Show("Duyệt Đơn Thành Công");
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            int idx = e.RowIndex;
+            int idx = e.RowIndex; //rowIndex: chỉ mục của hàng hiện tại.
             tb_Ma.Text = dgvDSDT.Rows[idx].Cells[1].Value.ToString();
             dtpNgayLap.Text = DateTime.Parse(dgvDSDT.Rows[idx].Cells[2].Value.ToString()).ToString();
             rtb_nd.Text = dgvDSDT.Rows[idx].Cells[3].Value.ToString();
@@ -51,7 +51,7 @@ namespace ManageSystem.Forms
         }
         private void BindData(List<QUANLYDON> list)
         {
-            dgvDSDT.Rows.Clear();
+            dgvDSDT.Rows.Clear(); //Rows.Clear: Xóa tất cả các hàng khỏi DataGridView.
             foreach (QUANLYDON item in list)
             {
                 int idx = dgvDSDT.Rows.Add();
@@ -59,7 +59,7 @@ namespace ManageSystem.Forms
                 dgvDSDT.Rows[idx].Cells[1].Value = item.MANV;
                 dgvDSDT.Rows[idx].Cells[2].Value = item.NgayLap;
                 dgvDSDT.Rows[idx].Cells[3].Value = item.NOIDUNG;
-                int ?status = item.TRANGTHAI;
+                int ?status = item.TRANGTHAI; //?: Toán tử điều kiện có thể là null.
                 if (status == null)
                 {
                     dgvDSDT.Rows[idx].Cells[4].Value = "Chưa Duyệt";

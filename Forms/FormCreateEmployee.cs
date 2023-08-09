@@ -279,6 +279,9 @@ namespace ManageSystem.Forms
                         var ask = MessageBox.Show("Bạn có muốn xóa nhân viên này ?", "DELETE ?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (ask == DialogResult.Yes)
                         {
+                            model.QUANLYDONs.RemoveRange(model.QUANLYDONs.Where(s => s.MANV == txt_ID.Text));
+                            model.CHITIETBANGCHAMCONGs.RemoveRange(model.CHITIETBANGCHAMCONGs.Where(s => s.MANV == txt_ID.Text));
+                            model.ACCOUNTs.RemoveRange(model.ACCOUNTs.Where(s => s.MANV == txt_ID.Text));
                             model.NHANVIENs.Remove(find);
                             MessageBox.Show("Xóa nhân viên thành công !");
                         }

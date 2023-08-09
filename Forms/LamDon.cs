@@ -44,18 +44,18 @@ namespace ManageSystem.Forms
 
         private void LamDon_Load(object sender, EventArgs e)
         {
-            tb_manv.Text = NhanVienMenu.currNhanVien;
-            var qld = db.QUANLYDONs.Where(s => s.MANV ==  tb_manv.Text).ToList();
+            tb_manv.Text = NhanVienMenu.currNhanVien; //currNhanVien: nhân viên hiện tại
+            var qld = db.QUANLYDONs.Where(s => s.MANV ==  tb_manv.Text).ToList(); //var: tự động nhận kiểu dữ liệu
             BindData(qld);
         }
         bool check(string richTextBox)
         {
-            Queue<string> q = new Queue<string>();
+            Queue<string> q = new Queue<string>(); //Queue: hàng đợi
             string temp = "";
             int idx = 0;
             for (int i = 0; i < richTextBox.Length; i++)
             {
-                char s1 = richTextBox[i];
+                char s1 = richTextBox[i]; //richTextBox: đoạn văn bản
                 if (s1 == ' ')
                 {
                     for (int j = i + 1; j < richTextBox.Length; j++)
@@ -84,13 +84,13 @@ namespace ManageSystem.Forms
                 char s = richTextBox[i];
                 if (q.Count == 0)
                 {
-                    if (s != ' ')
+                    if (s != ' ')// ' ': khoảng trắng
                     {
                         temp += s;
                     }
                     else
                     {
-                        q.Enqueue(temp);
+                        q.Enqueue(temp); //Enqueue: thêm vào hàng đợi
                         temp = "";
                     }
                 }
@@ -102,9 +102,9 @@ namespace ManageSystem.Forms
                     }
                     else
                     {
-                        if (q.Peek() != temp)
+                        if (q.Peek() != temp) //Peek: lấy phần tử đầu tiên
                         {
-                            q.Dequeue();
+                            q.Dequeue(); //Dequeue: xóa phần tử đầu tiên
                             q.Enqueue(temp);
                             temp = "";
                         }
@@ -134,7 +134,7 @@ namespace ManageSystem.Forms
         {
             try
             {
-                if (!(check(rtb_nd.Text)))
+                if (!(check(rtb_nd.Text))) //!: phủ định
                 {
                     MessageBox.Show("Bạn đang cố ý spam !");
                     rtb_nd.Text = null;
@@ -142,7 +142,7 @@ namespace ManageSystem.Forms
                 }
                 QUANLYDON qld = new QUANLYDON()
                 {
-                    MADON = Utils.generateUUID(),
+                    MADON = Utils.generateUUID(), //generateUUID: tạo mã đơn
                     MANV = NhanVienMenu.currNhanVien,
                     NgayLap =dtpNgayNop.Value.Date,
                     NOIDUNG = rtb_nd.Text,
