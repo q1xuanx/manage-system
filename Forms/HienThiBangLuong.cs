@@ -33,6 +33,7 @@ namespace ManageSystem.Forms
                     find.LUONGCOBAN = float.Parse(tb_LCB.Text);
                     List<BANGLUONG> bl = db.BANGLUONGs.ToList();
                     DataBinding(bl);
+                    db.SaveChanges();
                 }
                 else
                 {
